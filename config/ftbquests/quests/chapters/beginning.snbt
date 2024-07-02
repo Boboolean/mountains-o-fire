@@ -1,0 +1,819 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning"
+	group: ""
+	id: "0CD663C83A3B2735"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Attach carts to rideable entities by pressing 'R'. You can ride the supply carts and store items in them. There is also a plow cart and an animal cart!"]
+			id: "2CC5D9FB7CDD2AB8"
+			rewards: [
+				{
+					id: "48AB8806A91616B9"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "78EFAC55D595A403"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "777FDE4E0F3ABDD3"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4CC7D28B6C82BF7F"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a supply cart, Ride a horse for 10km"
+			tasks: [
+				{
+					icon: "minecraft:saddle"
+					id: "6A0DB315E2A152FC"
+					stat: "minecraft:horse_one_cm"
+					type: "stat"
+					value: 1000000
+				}
+				{
+					consume_items: false
+					id: "6F734A2CC069E8D6"
+					item: "astikorcarts:supply_cart"
+					type: "item"
+				}
+			]
+			title: "We Ride At Dawn"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Let the bodies hit the floor, let the bodies hit the floor, let the bodies..."]
+			id: "41185D94EA8DFFE1"
+			rewards: [{
+				id: "76DC8394EBC23946"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Slay a lot of mobs"
+			tasks: [{
+				icon: "irons_spellbooks:blood_vial"
+				id: "1F352A45B5C4CCEB"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			title: "Let The Bodies Hit The Floor"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["The monocle allows you to see statistics on tamed horses. Horses have realistic genetics. Keep their gene pool diverse and strong."]
+			id: "3E1480DEAB15A85B"
+			rewards: [
+				{
+					count: 5
+					id: "1FE52B8CFD8ACAE2"
+					item: "horse_colors:fertility_potion"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7636CEC61033AC1C"
+					item: "horse_colors:gender_change_item"
+					type: "item"
+				}
+				{
+					id: "59A2788514BACA83"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Craft a monocle, Cull the weak"
+			tasks: [
+				{
+					consume_items: false
+					id: "050B2782C333CD4A"
+					item: "horseexpert:monocle"
+					type: "item"
+				}
+				{
+					entity: "horse_colors:horse_felinoid"
+					icon: "minecraft:leather_horse_armor"
+					id: "4265E3C1714E64E3"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Only The Best"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "0F47C44755F6BB34"
+			rewards: [
+				{
+					count: 10
+					id: "30728911D829353B"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "6D1965BC3427D4EE"
+					type: "xp"
+					xp: 1395
+				}
+			]
+			subtitle: "Find an elytra"
+			tasks: [{
+				consume_items: false
+				id: "3B63324AF10C922B"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thank You, But The Etherium Is In Another End City"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["You got to admit it, I came up with a pretty good pun there."]
+			icon: {
+				Count: 1b
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5ABF11E666570B3D"
+			rewards: [
+				{
+					id: "4CBB3B96649C6BC3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "12828C9985B64037"
+					item: "aquaculture:nether_star_hook"
+					type: "item"
+				}
+			]
+			subtitle: "Catch a lot of fish"
+			tasks: [{
+				icon: "minecraft:pufferfish"
+				id: "193192911E4A08AE"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 1000
+			}]
+			title: "Teach A Man To Cast, And He Fishes For A Lifetime"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Seriously though, who even likes olives?"]
+			id: "137FDC63B200F7FA"
+			rewards: [
+				{
+					id: "078D2680DF659178"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "15BAB9B859AA940E"
+					item: "morediscs:music_disc_waves"
+					type: "item"
+				}
+				{
+					id: "6389F1545AF62D87"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Catch Neptune's Bounty"
+			tasks: [{
+				id: "63A8CEB09C8D68B2"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			title: "Athens Is Requesting A Name Change"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "78D8363C047850A4"
+			rewards: [{
+				id: "5A70B5AECEA1A056"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Kill the Bellringer"
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				icon: "meetyourfight:haunted_bell"
+				id: "5ADDC59F24B3C847"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Jumprope With A Ghost"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "2F0D382C287A2971"
+			rewards: [{
+				id: "72D88758B2B5832D"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Kill Dame Fortuna"
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				icon: "meetyourfight:devils_ante"
+				id: "0D72A4753D67F674"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Gambler's Fallacy"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "55661D3E18C578C4"
+			rewards: [{
+				id: "1989D86581DE3F48"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Kill Swampjaw"
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				icon: "meetyourfight:fossil_bait"
+				id: "0D76E8E6810DD424"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bombs Away"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "0B622FE27AC4EBA9"
+			rewards: [{
+				id: "173EE15FA184AE14"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Kill Rosalyne, Blade of Dusk"
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				icon: "meetyourfight:dusk_key"
+				id: "002D93D62A595A83"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Around And Around And Around"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Make the rarest foods in the game. The gods reward you!"]
+			id: "3CB43AB324E99123"
+			rewards: [{
+				id: "7C8B2843AE2BB3AB"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			subtitle: "Craft some rare foods"
+			tasks: [
+				{
+					id: "1FEFAC906BB3BB7D"
+					item: "aetherdelight:ambrosia_glazed_apple"
+					type: "item"
+				}
+				{
+					id: "1DC7277A14792290"
+					item: "cataclysm_delight:void_candy"
+					type: "item"
+				}
+				{
+					id: "3457D0FBDB8E77E4"
+					item: "cataclysm_delight:moltenbone_hangover_soup"
+					type: "item"
+				}
+				{
+					id: "3ECC3252DF7D3E54"
+					item: "ends_delight:dragon_leg_with_sauce_block"
+					type: "item"
+				}
+				{
+					id: "5185D4A992DEB3C2"
+					item: "aquamirae:poseidons_breakfast"
+					type: "item"
+				}
+				{
+					id: "73DC0311034F2CAF"
+					item: "meetyourfight:aether_glazed_cupcake"
+					type: "item"
+				}
+				{
+					id: "70315C70BE76F8CD"
+					item: "meetyourfight:velvet_fortune"
+					type: "item"
+				}
+				{
+					id: "7E6E420E9DD23829"
+					item: "meetyourfight:marshy_delight"
+					type: "item"
+				}
+				{
+					id: "73D908C83066DD8B"
+					item: "meetyourfight:petal_cream"
+					type: "item"
+				}
+				{
+					id: "3ABE7A3684A1EDD9"
+					item: "miners_delight:weird_caviar"
+					type: "item"
+				}
+				{
+					id: "4D35C67164A9F5EC"
+					item: "farmersrespite:blazing_chili"
+					type: "item"
+				}
+				{
+					id: "53F24E8D8246A5C4"
+					item: "brewinandchewin:withering_dross"
+					type: "item"
+				}
+				{
+					id: "28A1D528072EAB92"
+					item: "undergardendelight:depth_shroom_cream_soup"
+					type: "item"
+				}
+				{
+					id: "300C0AFA07962220"
+					item: "blue_skies:black_brewberry"
+					type: "item"
+				}
+				{
+					id: "2731BBBB3BA55D67"
+					item: "blue_skies:crescent_fruit"
+					type: "item"
+				}
+				{
+					id: "3727EEAA1B6F563A"
+					item: "enigmaticlegacy:cosmic_cake"
+					type: "item"
+				}
+			]
+			title: "Connoiseur"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "64D4DF5898F576F6"
+			rewards: [{
+				id: "0E3BEF55C826EC8C"
+				item: "aquaculture:neptunium_fillet_knife"
+				type: "item"
+			}]
+			subtitle: "Cook some delicious meals"
+			tasks: [
+				{
+					id: "1CD68C0E2944DBDD"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					id: "5A41A4F77E929F92"
+					item: "crabbersdelight:clam_bake"
+					type: "item"
+				}
+				{
+					id: "0937658004AF7872"
+					item: "aquaculturedelight:unusual_fish_soup"
+					type: "item"
+				}
+				{
+					id: "43424905E416DCC8"
+					item: "brewinandchewin:fiery_fondue_pot"
+					type: "item"
+				}
+				{
+					id: "17DACFDF96B94385"
+					item: "collectorsreap:deluxe_salad"
+					type: "item"
+				}
+				{
+					id: "7475AC02252AF3A0"
+					item: "delightful:deluxe_cheeseburger"
+					type: "item"
+				}
+				{
+					id: "5582F70166AC1E6E"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					id: "627A93808CA44B6B"
+					item: "collectorsreap:pomegranate_mutton"
+					type: "item"
+				}
+				{
+					id: "75283A7E51647F40"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "62C697B6594AB9E6"
+					item: "corn_delight:nachos_block"
+					type: "item"
+				}
+				{
+					id: "5B0774C16206414C"
+					item: "oceansdelight:cabbage_wrapped_elder_guardian"
+					type: "item"
+				}
+				{
+					id: "24E7558288B6DD46"
+					item: "aquaculturedelight:rollmops"
+					type: "item"
+				}
+				{
+					id: "7F21D1BA3FA6AAAF"
+					item: "brewinandchewin:cocoa_fudge"
+					type: "item"
+				}
+			]
+			title: "Head Chef"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "32CEC6C6DD6EEA6E"
+			rewards: [
+				{
+					count: 6
+					id: "0FFF7DBAA04B9996"
+					item: "smallships:cannon"
+					type: "item"
+				}
+				{
+					id: "7CC899602448C84B"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+				{
+					id: "4E9516A06BFDE4F4"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+							color: 11546150
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49C59818E9F8A222"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "1F77D44A1E2458E6"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Brew some delicious teas"
+			tasks: [
+				{
+					id: "00B9744B7E16430D"
+					item: "farmersrespite:dandelion_tea"
+					type: "item"
+				}
+				{
+					id: "5537020CA5A5F1F3"
+					item: "farmersrespite:yellow_tea"
+					type: "item"
+				}
+				{
+					id: "32B3656C00839587"
+					item: "collectorsreap:pomegranate_black_tea"
+					type: "item"
+				}
+				{
+					id: "08A712D87642173E"
+					item: "aetherdelight:aetherflower_tea"
+					type: "item"
+				}
+				{
+					id: "41C6CB816B71CBFE"
+					item: "farmersrespite:black_tea"
+					type: "item"
+				}
+			]
+			title: "Would You Like A Spot Of Tea"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "2326036A53D627B9"
+			subtitle: "Brew some delicious beers"
+			tasks: [
+				{
+					id: "42BE506772BF2C95"
+					item: "brewinandchewin:egg_grog"
+					type: "item"
+				}
+				{
+					id: "77F8944C25ADF3B5"
+					item: "brewinandchewin:saccharine_rum"
+					type: "item"
+				}
+				{
+					id: "47255A9B2024C15E"
+					item: "brewinandchewin:kombucha"
+					type: "item"
+				}
+				{
+					id: "7B453ECFE959EE08"
+					item: "brewinandchewin:pale_jane"
+					type: "item"
+				}
+				{
+					id: "043F27DB636544D5"
+					item: "brewinandchewin:salty_folly"
+					type: "item"
+				}
+				{
+					id: "3FFA0C7323906BD4"
+					item: "brewinandchewin:steel_toe_stout"
+					type: "item"
+				}
+				{
+					id: "38E5044D63990ED1"
+					item: "brewinandchewin:glittering_grenadine"
+					type: "item"
+				}
+				{
+					id: "08BF2107FCD16F9A"
+					item: "brewinandchewin:red_rum"
+					type: "item"
+				}
+			]
+			title: "Rock And Stone"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			description: ["You won't be able to eat the cookies if you put your gas mask on!"]
+			id: "54A337F323B3F9B5"
+			rewards: [{
+				id: "79C3250DDFDF8917"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_spell: {
+							id: "irons_spellbooks:healing_circle"
+							level: 7
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bake some delicious goods"
+			tasks: [
+				{
+					id: "57060DE4A25BD5E8"
+					item: "blue_skies:cherry_pie"
+					type: "item"
+				}
+				{
+					id: "041BA9397FDD3F58"
+					item: "farmersrespite:coffee_cake"
+					type: "item"
+				}
+				{
+					id: "6B4DAABE237B455E"
+					item: "collectorsreap:lime_cake"
+					type: "item"
+				}
+				{
+					id: "0EA3286279A2D133"
+					item: "collectorsreap:pomegranate_cake"
+					type: "item"
+				}
+				{
+					id: "589A1A77A2D8F851"
+					item: "collectorsreap:lime_pie"
+					type: "item"
+				}
+				{
+					id: "3CB9C80AED2AF051"
+					item: "ends_delight:chorus_fruit_pie"
+					type: "item"
+				}
+				{
+					id: "6C412C99AE4C28F8"
+					item: "farmersrespite:rose_hip_pie"
+					type: "item"
+				}
+				{
+					id: "7A57011DC415FA5D"
+					item: "farmersrespite:green_tea_cookie"
+					type: "item"
+				}
+				{
+					id: "3E038A18ADC04014"
+					item: "farmersdelight:honey_cookie"
+					type: "item"
+				}
+				{
+					id: "2D07A7A3EA16D949"
+					item: "snowyspirit:gingerbread_cookie"
+					type: "item"
+				}
+				{
+					id: "722C9635AB4B4399"
+					item: "brewinandchewin:pizza"
+					type: "item"
+				}
+				{
+					id: "16C10BB5E0E7A5A7"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "4A261C2005BE15DF"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+			]
+			title: "Love Is In The Air"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "5B05AE9E57A1C423"
+			rewards: [
+				{
+					id: "48613B37EFEB2B76"
+					item: "conjurer_illager:music_disc_delve_deeper"
+					type: "item"
+				}
+				{
+					id: "1A6CDC4B6F453037"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Vanquish the Conjurer's Balls"
+			tasks: [{
+				id: "3F08AEB447513ECC"
+				item: "conjurer_illager:throwable_ball"
+				type: "item"
+			}]
+			title: "Dodgeball"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: ["Is this what true power feels like?"]
+			id: "539F631DCF5E71CF"
+			rewards: [{
+				id: "10658EBE91625BC6"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Craft a Frisboom"
+			tasks: [{
+				id: "0AE4475B4A74935C"
+				item: "endlessbiomes:frisboom"
+				type: "item"
+			}]
+			title: "FBI Open Up"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["This mod is seriously cool. You'll need a lightroom block to develop the film. The rest is self explanatory if you explore a bit."]
+			id: "5472C21623553EA1"
+			rewards: [{
+				id: "08ECBE7EC93217F9"
+				item: "exposure:album"
+				type: "item"
+			}]
+			subtitle: "Make a Camera and Colored Film"
+			tasks: [
+				{
+					id: "56D3F7301CF73879"
+					item: "exposure:camera"
+					type: "item"
+				}
+				{
+					id: "4E44683803E04589"
+					item: "exposure:color_film"
+					type: "item"
+				}
+			]
+			title: "Caught In 4K"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "649D8240BF3D85D1"
+			rewards: [{
+				count: 5
+				id: "3C7EA1D5DB956411"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			subtitle: "Craft a Golden Lunchbox"
+			tasks: [{
+				id: "705BE5D312F3698B"
+				item: "solapplepie:golden_lunchbox"
+				type: "item"
+			}]
+			title: "Boujee"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "6053CD7E3C50901C"
+			rewards: [{
+				id: "51340D5B78FDCDB5"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Craft a Barbaric Helmet"
+			tasks: [{
+				id: "5D48D11F855F79AE"
+				item: {
+					Count: 1b
+					id: "goated:barbaric_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Headstrong"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			description: ["No need to waste a nametag!"]
+			id: "4E3E689A102BD3A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074A5A17E5A524EC"
+				table_id: 7329320016630203090L
+				type: "choice"
+			}]
+			subtitle: "Craft a Collar Tag"
+			tasks: [{
+				id: "631B5E11C827C10B"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			title: "And I Shall Name Her Pickle"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "276620D77AF313D6"
+			rewards: [{
+				id: "4B65C7F758B41270"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Craft a Drum Kit"
+			tasks: [{
+				id: "3373139224BE533C"
+				item: "xercamusic:drum_kit"
+				type: "item"
+			}]
+			title: "The Best Instrument"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Challenges"
+}

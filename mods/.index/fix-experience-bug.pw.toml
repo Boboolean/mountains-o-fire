@@ -1,0 +1,13 @@
+filename = 'ExperienceBugFix-1.19-1.41.2.3.jar'
+name = 'Fix Experience Bug (now with FABRIC and FORGE versions)'
+side = 'both'
+
+[download]
+hash = '8d8a0b204738bb2286109ad77a9cd60f464527fa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4178188
+project-id = 486778

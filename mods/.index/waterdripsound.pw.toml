@@ -1,0 +1,13 @@
+filename = 'DripSounds-1.19-0.3.0.jar'
+name = 'Drip Sounds (Forge)'
+side = 'client'
+
+[download]
+hash = '85a35b223e21601eb462486223c60f236bbc6e832da2771eacb4646035f85667d7cdead6c0e8ce9cdfb687837dc00586bfa87473bf1495d945bb2effc14615b5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XOhqdyTf/versions/1.19-0.3.0/DripSounds-1.19-0.3.0.jar'
+
+[update.modrinth]
+mod-id = 'XOhqdyTf'
+version = 'eCCQqQQ8'

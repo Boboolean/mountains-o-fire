@@ -1,0 +1,13 @@
+filename = 'awesomedungeonnether-forge-1.19.2-3.1.1.jar'
+name = 'Awesome Dungeon Nether edition - Forge'
+side = 'both'
+
+[download]
+hash = '26af851f27e763b1f325815004b6e87e3996769e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4454055
+project-id = 566649

@@ -1,0 +1,13 @@
+filename = 'eso-forge-1.19.2-1.2.2-all.jar'
+name = 'Enchanting System Overhaul'
+side = 'both'
+
+[download]
+hash = 'df9068e57c330499a91bc4b36bcd78419ccef5fc06ca95e70fcaca6b4c7573376b6a1d83ad993737d9c8d4051d7591f4daa0de1d707572fd3f8366724e07d0ba'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CxaV51ez/versions/uGubtann/eso-forge-1.19.2-1.2.2-all.jar'
+
+[update.modrinth]
+mod-id = 'CxaV51ez'
+version = 'uGubtann'

@@ -1,0 +1,13 @@
+filename = 'xercamusic-1.19.2-1.1.0.jar'
+name = 'Music Maker Mod'
+side = 'both'
+
+[download]
+hash = 'a5509a47ec40ae2ea692afefd542ee05cb9c9b2bba7ffbba42fb4cf5e3f2dcb42323f0b495c31ebfbca63ff1edf3263d31f87e2cbdc3516e12f19bc8ba414a0a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qQpWCN75/versions/HshJamuy/xercamusic-1.19.2-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'qQpWCN75'
+version = 'HshJamuy'

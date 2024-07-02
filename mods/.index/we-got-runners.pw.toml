@@ -1,0 +1,13 @@
+filename = 'Wegotrunners0.5.1.19.2.jar'
+name = 'We Got Runners!'
+side = 'both'
+
+[download]
+hash = 'f4b847cf39f5b4d8d47736d6fa1e698f06137f15'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4671145
+project-id = 531381

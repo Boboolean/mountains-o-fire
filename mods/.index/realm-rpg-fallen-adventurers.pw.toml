@@ -1,0 +1,13 @@
+filename = 'realmrpg_fallen_adventurers_1.0.3_forge_1.19.2 (1).jar'
+name = 'Realm RPG: Fallen Adventurers'
+side = 'both'
+
+[download]
+hash = 'b0244bb980d15000e2bd906fe3ad2427f943f8d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4956464
+project-id = 916895

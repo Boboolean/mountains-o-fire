@@ -1,0 +1,13 @@
+filename = 'sbetterwatersplash-3.3.jar'
+name = 'BetterWaterSplashPotions'
+side = 'both'
+
+[download]
+hash = '9389b633f3062573dd4f775f040855daf5b6b07e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3933942
+project-id = 319188

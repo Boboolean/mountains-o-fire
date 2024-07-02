@@ -1,0 +1,13 @@
+filename = 'SnowShovel1.0.1_forge_minecraft1.19.2.jar'
+name = 'Snow shovel'
+side = 'both'
+
+[download]
+hash = 'fee1903519ec84b80ea25203a642d34a50353303'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4751789
+project-id = 912461

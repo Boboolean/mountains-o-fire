@@ -1,0 +1,13 @@
+filename = 'goated-1.19.2-1.3.1.jar'
+name = "You've Goat to be Kidding Me!"
+side = 'both'
+
+[download]
+hash = 'dbc861d92dbfca6f9a2b632cc6097c7110026716'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4467721
+project-id = 805646

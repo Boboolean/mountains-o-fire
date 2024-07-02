@@ -1,0 +1,13 @@
+filename = 'Statement-4.2.7+1.19.2-forge.jar'
+name = 'Statement'
+side = 'both'
+
+[download]
+hash = '72852d8e82eb3edcd077edab51e1488e3cf72be5e1dd50a3e813e8de77fbbd2a023a3c1bd3375eb3d1c85216fac249c67f2707b736d0b22a5ef7aad66342145f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/a9AsUNGn/versions/fim7a2ol/Statement-4.2.7%2B1.19.2-forge.jar'
+
+[update.modrinth]
+mod-id = 'a9AsUNGn'
+version = 'fim7a2ol'

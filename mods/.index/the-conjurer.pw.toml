@@ -1,0 +1,13 @@
+filename = 'the-conjurer-1.19.2-1.1.5.jar'
+name = 'The Conjurer'
+side = 'both'
+
+[download]
+hash = '2f063f6154d5f4bcd8fcf6340316303bf20cf291ebf25cac785e1e61b86912d6a939483e2dc098b1daaa2ff069c69c19edcc314c68e342fa8e4210b26a20ed67'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/84MLqQxZ/versions/5YN0B5Hj/the-conjurer-1.19.2-1.1.5.jar'
+
+[update.modrinth]
+mod-id = '84MLqQxZ'
+version = '5YN0B5Hj'

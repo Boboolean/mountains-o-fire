@@ -1,0 +1,13 @@
+filename = 'voidtotem-forge-1.19.2-2.1.0.jar'
+name = 'Void Totem'
+side = 'both'
+
+[download]
+hash = 'ae1ddc9bbc0c1d622d7dd6295f5911dffd0ca80eb246d91892c0f7e921a1e00a8493bf32c2448ff7660613de6efc958b80727aea0a122649c1b4c013b1b478ff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/q6eiiQ07/versions/2r4TLyh6/voidtotem-forge-1.19.2-2.1.0.jar'
+
+[update.modrinth]
+mod-id = 'q6eiiQ07'
+version = '2r4TLyh6'

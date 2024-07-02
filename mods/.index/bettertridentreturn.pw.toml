@@ -1,0 +1,13 @@
+filename = 'bettertridentreturn-1.19-1.0.2-forge.jar'
+name = 'Better Trident Return'
+side = 'both'
+
+[download]
+hash = 'c528efcb5c1f7ebeec2497919172206abaf16c70'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3830777
+project-id = 334204

@@ -1,0 +1,13 @@
+filename = 'extra_sprinkles-1.0.jar'
+name = 'Extra Sprinkles'
+side = 'both'
+
+[download]
+hash = 'b2eab4e3326eeed4c4e884126b8d29531eb14215'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4120442
+project-id = 714574

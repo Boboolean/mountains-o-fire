@@ -1,0 +1,13 @@
+filename = 'iChunUtil-1.19.2-Forge-1.0.0.jar'
+name = 'iChunUtil'
+side = 'both'
+
+[download]
+hash = '39dae9e23a11945c9cc977f23020361af654c2ec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5477168
+project-id = 229060

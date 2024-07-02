@@ -1,0 +1,13 @@
+filename = 'Retraining-forge-1.19.2-1.2.1.jar'
+name = 'Retraining'
+side = 'both'
+
+[download]
+hash = '1cc5db27da5c49a8ed90e8e8a6e554952f7974489098e9c6770eac51734f8034ffed618bee924c75e24ee3d1ad4a6beace812236fbd07922e05e310d6d1e6cea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Iugiwphr/versions/jLT6htxi/Retraining-forge-1.19.2-1.2.1.jar'
+
+[update.modrinth]
+mod-id = 'Iugiwphr'
+version = 'jLT6htxi'

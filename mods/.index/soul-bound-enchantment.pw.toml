@@ -1,0 +1,13 @@
+filename = 'Soulbound-Forge-0.3+1.19.2.jar'
+name = 'Soul Bound Enchantment'
+side = 'both'
+
+[download]
+hash = 'bf26629527077d67b0521dfd643c5f14602c35aa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5276224
+project-id = 888668

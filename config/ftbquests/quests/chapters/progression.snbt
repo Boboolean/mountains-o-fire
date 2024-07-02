@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	id: "4DEA65B282E114BD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Tip: fire helps with the undead!"]
+			id: "0F9EED0339B196D8"
+			rewards: [
+				{
+					id: "500A02285E475E42"
+					item: {
+						Count: 1b
+						id: "simplyswords:iron_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5140B33FBDA492BE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Kill some basic enemies"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "45B3452FBB8A21D0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "61425F406AB15446"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "3320287DA51F30EE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Harder Than It Sounds"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["It's time to tussle with the muscle!"]
+			id: "58C467B367CFF4C9"
+			rewards: [
+				{
+					id: "44000DFE65C10899"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1AECD1A9E0D57C33"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Enter the End"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "6EA97B731F2A4E3A"
+				type: "dimension"
+			}]
+			title: "But Wait, There's More!"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Yeah, the portal room looks epic, I know."]
+			icon: "minecraft:end_portal_frame"
+			id: "28558BD19C9C01F1"
+			rewards: [{
+				id: "7D72B9AD58DBCDD4"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			subtitle: "Find an end portal"
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "49306ECE2C9DFED4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			title: "Dot Your Eyes"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "enigmaticlegacy:unwitnessed_amulet"
+			id: "47729EED709C2CC6"
+			rewards: [{
+				id: "77DB5E407A24DD58"
+				item: "enigmaticlegacy:unwitnessed_amulet"
+				type: "item"
+			}]
+			subtitle: "Something jingles in your pocket"
+			tasks: [{
+				id: "334DBA43AD0FB285"
+				type: "checkmark"
+			}]
+			title: "Reminiscent"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Things are different... come prepared."]
+			id: "364911446E3AB69B"
+			rewards: [
+				{
+					id: "2CF0AFEA1F788EDD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "550A3C230871EB8F"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Enter the Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "netherdungeons:magma_nether_bricks"
+				id: "72A25BFCE6D61F7E"
+				type: "dimension"
+			}]
+			title: "Ashes"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "4C2E29970909E103"
+			rewards: [
+				{
+					id: "467C1726A1799176"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13725B94FCCE94DD"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Enter the Aether"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "694A3F2D04B3E6CA"
+				type: "dimension"
+			}]
+			title: "Don't Look Down"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "5B200D4D379C9123"
+			rewards: [
+				{
+					count: 4
+					id: "51DB7F740F9606AF"
+					item: "undergarden:cloggrum_lantern"
+					type: "item"
+				}
+				{
+					id: "3DF389386F981632"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Enter the Undergarden"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "undergarden:veil_mushroom"
+				id: "6D5A0EE65E8C21EC"
+				type: "dimension"
+			}]
+			title: "Livin' In A Mushroom Paradise"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "7002FE17D7F06B0B"
+			rewards: [
+				{
+					id: "46A0ABDDC93319C4"
+					item: {
+						Count: 1b
+						id: "blue_skies:bluebright_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D797CBD89F78142"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Enter the Everbright"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "332ACD7E6C8D547F"
+				type: "dimension"
+			}]
+			title: "Arctic Trip"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "38CF82B3807C9694"
+			rewards: [
+				{
+					id: "1390AD6F5DBFDBAD"
+					item: {
+						Count: 1b
+						id: "blue_skies:dusk_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "380E285F35A2D04E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Enter the Everdawn"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "2D57F74806CC9EBA"
+				type: "dimension"
+			}]
+			title: "The Everglades"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_eye"
+				tag: { }
+			}
+			id: "68A1A53F63AF6D8E"
+			rewards: [{
+				id: "4DFBAFE07C673118"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "An old relic collects dust in this chest. Maybe you should hold it?"
+			tasks: [{
+				id: "532A8E53B0CDF1A5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lootr:lootr_chest"
+				type: "observation"
+			}]
+			title: "Waiting For You"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Progression"
+}
