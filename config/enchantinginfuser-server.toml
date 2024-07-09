@@ -1,7 +1,7 @@
 
 [advanced_infuser]
 	#Can the enchanting infuser repair items using levels in addition to enchanting.
-	allow_repairing = true
+	allow_repairing = false
 	#Allow enchantments on an already enchanted item to be increased / removed.
 	#Allowed Values: ALL, FULL_DURABILITY, UNENCHANTED
 	allow_modifying_enchantments = "ALL"
@@ -106,7 +106,7 @@
 	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
 	#This value will be fixed at 50 when Apotheosis is installed.
 	#Range: > 0
-	maximum_bookshelves = 15
+	maximum_bookshelves = 80
 	#Allow books to be enchanted in an infuser.
 	allow_books = false
 

@@ -3,7 +3,7 @@
 "enable soul fire aspect" = true
 # Whether Soul Fire Aspect cannot appear in the enchanting table.
 # If enabled along with [enable soul fire aspect discovery], the enchantment won't appear in the enchanting table, but can still be found in loots.
-"enable soul fire aspect treasure" = false
+"enable soul fire aspect treasure" = true
 # Whether Soul Fire Aspect can appear in the enchanting table and loots.
 # [enable Soul Fire Aspect treasure] takes precedence.
 "enable Soul Fire Aspect discovery" = true
@@ -14,7 +14,7 @@
 "enable soul flame" = true
 # Whether Soul Flame cannot appear in the enchanting table.
 # If enabled along with [enable soul flame discovery], the enchantment won't appear in the enchanting table, but can still be found in loots.
-"enable soul flame treasure" = false
+"enable soul flame treasure" = true
 # Whether Soul Flame can appear in the enchanting table and loots.
 # [enable Soul Flame treasure] takes precedence.
 "enable Soul Flame discovery" = true

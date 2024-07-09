@@ -366,7 +366,7 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 24
 		#Range: > 1
-		spacing = 24
+		spacing = 40
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 16
@@ -406,7 +406,7 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 35
 		#Range: > 1
-		spacing = 35
+		spacing = 40
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 23
@@ -486,7 +486,7 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 39
 		#Range: > 1
-		spacing = 39
+		spacing = 35
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 26
@@ -496,7 +496,7 @@
 		# Percent chance of generating in an allowed chunk.
 		# Default: 35
 		#Range: 0 ~ 100
-		probability = 35
+		probability = 40
 
 	[large_dungeon.structures]
 
@@ -606,7 +606,7 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 15
 		#Range: > 1
-		spacing = 15
+		spacing = 25
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 10
@@ -750,14 +750,14 @@
 				# - Prefix an entry with ! to exclude it: "!#minecraft:is_ocean"
 				# Example: ["#minecraft:is_forest", "!minecraft:flower_forest"] This will include all biomes tagged as forests except for flower forests.
 				# Default: ["#minecraft:is_overworld", "!#forge:is_hot/overworld", "!#forge:is_water", "!#forge:is_mountain", "!#forge:is_underground"]
-				biomes = ["#minecraft:is_overworld", "!#forge:is_hot/overworld", "!#forge:is_water", "!#forge:is_mountain", "!#forge:is_underground"]
+				biomes = []
 
 			[ruined_building.structures.structure.dimensions]
 				#
 				# What dimensions this structure should generate in. Leave empty to allow all dimensions.
 				# Example: ["minecraft:overworld", "minecraft:the_nether"]
 				# Default: ["minecraft:overworld"]
-				dimensions = ["minecraft:overworld"]
+				dimensions = []
 
 [stables]
 
@@ -766,7 +766,7 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 46
 		#Range: > 1
-		spacing = 46
+		spacing = 50
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 30
@@ -776,7 +776,7 @@
 		# Percent chance of generating in an allowed chunk.
 		# Default: 32
 		#Range: 0 ~ 100
-		probability = 32
+		probability = 40
 
 	[stables.structures]
 
@@ -886,17 +886,17 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 37
 		#Range: > 1
-		spacing = 100
+		spacing = 65
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 24
 		#Range: > 0
-		offset = 24
+		offset = 30
 		#
 		# Percent chance of generating in an allowed chunk.
 		# Default: 35
 		#Range: 0 ~ 100
-		probability = 30
+		probability = 45
 
 	[tower_of_the_undead.structures]
 
@@ -926,7 +926,7 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 29
 		#Range: > 1
-		spacing = 29
+		spacing = 30
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 19

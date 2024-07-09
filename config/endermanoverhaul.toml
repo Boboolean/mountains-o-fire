@@ -1,6 +1,6 @@
 allowSpawning = true
 spawnBadlandsEnderman = true
-spawnCaveEnderman = true
+spawnCaveEnderman = false
 spawnCrimsonForestEnderman = true
 spawnDarkOakEnderman = true
 spawnDesertEnderman = true
@@ -10,7 +10,7 @@ spawnFlowerFieldsEnderman = true
 spawnIceSpikesEnderman = true
 spawnMushroomFieldsEnderman = true
 spawnNetherWastesEnderman = true
-spawnOceanEnderman = true
+spawnOceanEnderman = false
 spawnSavannaEnderman = true
 spawnSnowyEnderman = true
 spawnSoulsandValleyEnderman = true

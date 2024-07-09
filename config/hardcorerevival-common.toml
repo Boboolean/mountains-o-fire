@@ -16,7 +16,7 @@ rescueRespawnFoodLevel = 5
 rescueRespawnEffects = ["minecraft:hunger|600|0", "minecraft:weakness|1200|0", "minecraft:water_breathing|100|0", "minecraft:fire_resistance|150|0"]
 #The distance at which a player can rescue another.
 #Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-rescueDistance = 5.0
+rescueDistance = 3.0
 #If true, knocked out players will glow, making them visible through blocks.
 glowOnKnockout = true
 #If true, knocked out players are still able to punch nearby enemies.

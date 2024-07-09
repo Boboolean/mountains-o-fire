@@ -1,7 +1,7 @@
 
 ["Feathers' Config"]
 	#Fade the HUD overlay if the feathers are full.
-	"Fade When Full" = false
+	"Fade When Full" = true
 	#Duration (in ticks) before the HUD overlay fades.
 	"Fade Cooldown" = 60
 	#Duration (in ticks) of the HUD Fade-in animation.

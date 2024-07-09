@@ -1,0 +1,13 @@
+filename = 'UniqueEnchantmentsBase-1.19.2-5.0.2.jar'
+name = 'Unique Enchantments Base'
+side = 'both'
+
+[download]
+hash = '6197648ae76c2cd734ffc4d249d8c27029b26a8a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5514637
+project-id = 515658

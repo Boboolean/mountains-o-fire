@@ -1,5 +1,3 @@
-craftingTable.addShapeless("dragon_scale_reduced", <item:forbidden_arcanus:dragon_scale>, 
-    [<item:minecraft:dragon_head>, <item:forbidden_arcanus:mystical_dagger>.anyDamage().transformDamage(10)]);
 
 craftingTable.addShaped("druidic_spell_book", <item:irons_spellbooks:druidic_spell_book>, [
     [<item:minecraft:air>, <item:minecraft:spore_blossom>, <item:irons_spellbooks:magic_cloth>],
@@ -26,19 +24,7 @@ craftingTable.addShaped("netherite_spell_book", <item:irons_spellbooks:netherite
     [<item:aquamirae:golden_moth_in_a_jar>, <item:irons_spellbooks:ruined_book>, <item:stalwart_dungeons:awful_crystal>],
     [<item:brewinandchewin:withering_dross>, <item:celestisynth:celestial_netherite_ingot>, <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "minecraft:vanishing_curse"}]})]]);
 
-craftingTable.addShaped("arcane_cloth", <item:irons_spellbooks:magic_cloth>*8, [
-    [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>],
-    [<item:minecraft:white_wool>, <item:forbidden_arcanus:deorum_ingot>, <item:minecraft:white_wool>],
-    [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>]
-]);
 
-craftingTable.addShaped("enigmatic_amulet", <item:enigmaticlegacy:unwitnessed_amulet>, [
-    [<item:naturalist:glow_goop>, <item:irons_spellbooks:blood_vial>, <item:naturalist:glow_goop>],
-    [<item:minecraft:gold_ingot>, <item:minecraft:ender_eye>, <item:minecraft:gold_ingot>],
-    [<item:minecraft:air>, <item:minecraft:golden_apple>, <item:minecraft:air>]
-]);
-
-craftingTable.removeByName("forbidden_arcanus:dragon_scale");
 craftingTable.removeByName("mahoutsukai:attuned_emerald");
 craftingTable.removeByName("mahoutsukai:attuned_diamond");
 craftingTable.removeByName("mahoutsukai:attuner");
