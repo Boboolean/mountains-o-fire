@@ -776,7 +776,7 @@
 		# Percent chance of generating in an allowed chunk.
 		# Default: 32
 		#Range: 0 ~ 100
-		probability = 40
+		probability = 20
 
 	[stables.structures]
 

@@ -2,7 +2,7 @@
 ["Possibility of Actions(Some do not have to work)"]
 	can_BreakfallReady = true
 	can_CatLeap = true
-	can_ClimbPoles = true
+	can_ClimbPoles = false
 	can_ClimbUp = true
 	can_ClingToCliff = true
 	can_Crawl = true
@@ -17,7 +17,7 @@
 	can_Roll = false
 	can_SkyDive = true
 	can_Slide = true
-	can_Tap = true
+	can_Tap = false
 	can_Vault = false
 	can_VerticalWallRun = true
 	can_WallJump = true
