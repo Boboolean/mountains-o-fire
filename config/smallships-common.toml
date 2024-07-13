@@ -62,15 +62,15 @@ schematicVersion = 4
 			#Range: 1.0 ~ 10000.0
 			shipAttributeCogMaxHealth = 300.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogMaxSpeed = 30.0
+			shipAttributeCogMaxSpeed = 35.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogMaxReverseSpeed = 0.1
+			shipAttributeCogMaxReverseSpeed = 0.5
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogMaxRotationSpeed = 4.5
+			shipAttributeCogMaxRotationSpeed = 9.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogAcceleration = 0.015
+			shipAttributeCogAcceleration = 0.045
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogRotationAcceleration = 0.7
+			shipAttributeCogRotationAcceleration = 2.8
 
 		#Default configs for the container of the Cog.
 		[Ship.Cog.Container]
@@ -81,48 +81,48 @@ schematicVersion = 4
 		[Ship.Cog.Modifier]
 			#Specify biome type for the Cog. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierCogBiome = "COLD"
+			shipModifierCogBiome = "WARM"
 
 	[Ship.Brigg]
 
 		#Default attributes for the Brigg. Speed in km/h, Health in default mc health points
 		[Ship.Brigg.Attributes]
 			#Range: 0.0 ~ 10000.0
-			shipAttributeBriggMaxHealth = 450.0
+			shipAttributeBriggMaxHealth = 600.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeBriggMaxSpeed = 35.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeBriggMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
-			shipAttributeBriggMaxRotationSpeed = 4.0
+			shipAttributeBriggMaxRotationSpeed = 6.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeBriggAcceleration = 0.015
 			#Range: 0.0 ~ 100.0
-			shipAttributeBriggRotationAcceleration = 0.55
+			shipAttributeBriggRotationAcceleration = 0.8
 
 		#Default configs for the container of the Brigg.
 		[Ship.Brigg.Container]
 			#Set container size for the Brigg (value must be divisible by 9 and bigger than 0).
-			shipContainerBriggContainerSize = 162
+			shipContainerBriggContainerSize = 108
 
 		#Brigg specific speed modifiers.
 		[Ship.Brigg.Modifier]
 			#Specify biome type for the Brigg. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierBriggBiome = "COLD"
+			shipModifierBriggBiome = "NONE"
 
 	[Ship.Galley]
 
 		#Default attributes for the Galley. Speed in km/h, Health in default mc health points
 		[Ship.Galley.Attributes]
 			#Range: 0.0 ~ 10000.0
-			shipAttributeGalleyMaxHealth = 200.0
+			shipAttributeGalleyMaxHealth = 150.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeGalleyMaxSpeed = 30.0
+			shipAttributeGalleyMaxSpeed = 60.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeGalleyMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
-			shipAttributeGalleyMaxRotationSpeed = 5.0
+			shipAttributeGalleyMaxRotationSpeed = 3.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeGalleyAcceleration = 0.015
 			#Range: 0.0 ~ 100.0
@@ -131,13 +131,13 @@ schematicVersion = 4
 		#Default configs for the container of the Galley.
 		[Ship.Galley.Container]
 			#Set container size for the Galley (value must be divisible by 9 and bigger than 0).
-			shipContainerGalleyContainerSize = 54
+			shipContainerGalleyContainerSize = 162
 
 		#Galley specific speed modifiers.
 		[Ship.Galley.Modifier]
 			#Specify biome type for the Galley. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierGalleyBiome = "WARM"
+			shipModifierGalleyBiome = "NONE"
 
 	[Ship.Drakkar]
 
@@ -146,20 +146,20 @@ schematicVersion = 4
 			#Range: 0.0 ~ 10000.0
 			shipAttributeDrakkarMaxHealth = 200.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeDrakkarMaxSpeed = 30.0
+			shipAttributeDrakkarMaxSpeed = 40.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeDrakkarMaxReverseSpeed = 0.1
+			shipAttributeDrakkarMaxReverseSpeed = 0.2
 			#Range: 0.0 ~ 100.0
 			shipAttributeDrakkarMaxRotationSpeed = 5.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeDrakkarAcceleration = 0.015
+			shipAttributeDrakkarAcceleration = 0.03
 			#Range: 0.0 ~ 100.0
-			shipAttributeDrakkarRotationAcceleration = 1.0
+			shipAttributeDrakkarRotationAcceleration = 1.5
 
 		#Default configs for the container of the Drakkar.
 		[Ship.Drakkar.Container]
 			#Set container size for the Drakkar (value must be divisible by 9 and bigger than 0).
-			shipContainerDrakkarContainerSize = 54
+			shipContainerDrakkarContainerSize = 108
 
 		#Drakkar specific speed modifiers.
 		[Ship.Drakkar.Modifier]
