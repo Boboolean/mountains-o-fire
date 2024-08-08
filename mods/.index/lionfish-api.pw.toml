@@ -1,0 +1,13 @@
+filename = 'lionfishapi-1.8.jar'
+name = 'Lionfish-API'
+side = 'both'
+
+[download]
+hash = 'cf60b892fb06ded88e02432807b1e5266c506eb3ac97bb01b2caa388a42d29175e31d22ead842caecaefca16309b6572ae95a44453274f96a413cbc2d03274bd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FoVacERa/versions/mJyalNrI/lionfishapi-1.8.jar'
+
+[update.modrinth]
+mod-id = 'FoVacERa'
+version = 'mJyalNrI'

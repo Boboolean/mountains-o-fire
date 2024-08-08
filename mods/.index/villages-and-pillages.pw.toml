@@ -1,0 +1,13 @@
+filename = 'villagesandpillages-forge-mc1.19.2-1.0.0.jar'
+name = 'Villages&Pillages'
+side = 'server'
+
+[download]
+hash = 'abdfdaf655ad3478616502a71389630f460146321a3980ac50bb7ad9bd2f8536febb6ce5757f018fcd31f58d5193efe909401bd7c662f63241c63e1c8dc6f563'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/klXONLDA/versions/EbqIYJrD/villagesandpillages-forge-mc1.19.2-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'klXONLDA'
+version = 'EbqIYJrD'

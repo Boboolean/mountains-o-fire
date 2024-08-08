@@ -1,0 +1,13 @@
+filename = 'doapi-1.1.0b.jar'
+name = "[Let's Do] API"
+side = 'both'
+
+[download]
+hash = '26cde3232aa3c1eb1f9604039d3d3afe2c2729d399dfebdf505d4e307660e55752962daa12d131813fb98ae32e52a6c2ea032d81a4e3cd1de24fa543ddb99e22'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4XJZeZbM/versions/3albwtm0/doapi-1.1.0b.jar'
+
+[update.modrinth]
+mod-id = '4XJZeZbM'
+version = '3albwtm0'

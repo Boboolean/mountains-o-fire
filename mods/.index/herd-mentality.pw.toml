@@ -1,0 +1,13 @@
+filename = 'HeardMentality-Forge-1.19.2-8.0.1.jar'
+name = 'Herd Mentality'
+side = 'both'
+
+[download]
+hash = 'd74ce0318069a577077118347b0ee180b1215cf3bd1f35729186df91be56ee7bd3d504b4b92fb2aaae6b257fbcf64641655f7222ff218087aa8b1de858086db2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zOBrENMH/versions/IdC2pFfQ/HeardMentality-Forge-1.19.2-8.0.1.jar'
+
+[update.modrinth]
+mod-id = 'zOBrENMH'
+version = 'IdC2pFfQ'

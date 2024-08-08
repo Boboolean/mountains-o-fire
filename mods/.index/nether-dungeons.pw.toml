@@ -1,0 +1,13 @@
+filename = 'netherdungeons-1.0.jar'
+name = 'Nether Dungeons'
+side = 'both'
+
+[download]
+hash = '5ec5fc127e1b3e20fa94878334dae18484ee4d7e548bad66afce6b2e99400aad1f14997977e372027cca747d4e4bb777101f467f16aa3e208185b6882ac70fe5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/m9Ae6Puo/versions/kez4OF2L/netherdungeons-1.0.jar'
+
+[update.modrinth]
+mod-id = 'm9Ae6Puo'
+version = 'kez4OF2L'

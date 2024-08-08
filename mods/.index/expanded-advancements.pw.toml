@@ -1,0 +1,13 @@
+filename = 'expanded_advancements-1.0-1.19.2.jar'
+name = 'Expanded Advancements'
+side = 'both'
+
+[download]
+hash = '71a03921ea5ce2a3556596c7c6e959354a612126'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4680943
+project-id = 898504

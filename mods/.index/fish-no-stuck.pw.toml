@@ -1,0 +1,13 @@
+filename = 'fishnostuck-mc1.17-1.20.2-v1.0.1-forge.jar'
+name = 'Fish No Stuck'
+side = 'server'
+
+[download]
+hash = '904d849c5a8883aaeaeefd1af99e73e46ba9acb9e69ccb7a58023cf0d16ca9aec24cd972e169e9686a238a72bd8d7f39492704aa7d8b85222e3af1be8ce955ad'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IjXg2Day/versions/IgbOZUjr/fishnostuck-mc1.17-1.20.2-v1.0.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'IjXg2Day'
+version = 'IgbOZUjr'

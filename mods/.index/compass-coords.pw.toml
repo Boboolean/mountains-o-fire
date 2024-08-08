@@ -1,0 +1,13 @@
+filename = 'CompassCoords-1.5.0-mc1.19.2.jar'
+name = 'Compass Coords'
+side = 'client'
+
+[download]
+hash = '996581a5397ea8f1a67ccadfacc0cf5b02062be74f4c8ea82cb2b17e121635df8ad2e19609f3facfd52cad89ebed7bb43b68c70cbe01d738431a6c5b9347a01c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oBwwvdls/versions/vTUWy6o9/CompassCoords-1.5.0-mc1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'oBwwvdls'
+version = 'vTUWy6o9'

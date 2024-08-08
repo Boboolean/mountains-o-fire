@@ -1,0 +1,13 @@
+filename = 'no_nv_flash-1.19.2-1.5.0.3.jar'
+name = 'No More Night Vision Flashing!'
+side = 'client'
+
+[download]
+hash = '1c409da49e7189d06d478230b5699d4ddb98b457528e9c771bfd7949f27c8a867ec61e34cd23e9e87273f9706178be7b87e95ef2e1f759c81388bccdc85b119e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/o9s5PfpG/versions/ubhPEB9i/no_nv_flash-1.19.2-1.5.0.3.jar'
+
+[update.modrinth]
+mod-id = 'o9s5PfpG'
+version = 'ubhPEB9i'

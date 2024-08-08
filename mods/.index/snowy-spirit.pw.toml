@@ -1,0 +1,13 @@
+filename = 'snowyspirit-1.19.2-2.2.2.jar'
+name = 'Snowy Spirit'
+side = 'both'
+
+[download]
+hash = 'e82c1e3e6013c8cfb463b918e6b57e12ef6dcfd8496c409a50e3327d00bd76e042b21091fd8f675f12a4fde29bfeea2b68c08ce0e8445c1e498cb78093bfbf8a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UiFDlI7w/versions/Hafq3c5d/snowyspirit-1.19.2-2.2.2.jar'
+
+[update.modrinth]
+mod-id = 'UiFDlI7w'
+version = 'Hafq3c5d'

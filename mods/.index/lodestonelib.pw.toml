@@ -1,0 +1,13 @@
+filename = 'lodestone-1.19.2-1.4.2.jar'
+name = 'Lodestone'
+side = 'both'
+
+[download]
+hash = '437d0e9cce2f0225f31ca0ad92521d4086ffce6349aa1ab394001e4ee29a2f7e983d3ab71e75712fd25f027aa992ed1b1468f10541eb6abc770d962915228a1a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bN3xUWdo/versions/EbxZLrOe/lodestone-1.19.2-1.4.2.jar'
+
+[update.modrinth]
+mod-id = 'bN3xUWdo'
+version = 'EbxZLrOe'

@@ -1,0 +1,13 @@
+filename = 'Undergarden Paths 1.19.2-0.1.1.jar'
+name = 'Undergarden Paths'
+side = 'both'
+
+[download]
+hash = '8bb7f0b765a192ecd553817c57dc613f852e6afb413d70c58436635b2e2f21d9962ebc3843bfc461af96135289d7630d4a8a6e6300fa1b9b70a160b19cca44cf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CGHGskKo/versions/OInvhqyn/Undergarden Paths 1.19.2-0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'CGHGskKo'
+version = 'OInvhqyn'

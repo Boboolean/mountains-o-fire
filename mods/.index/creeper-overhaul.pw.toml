@@ -1,0 +1,13 @@
+filename = 'creeperoverhaul-2.0.9-forge.jar'
+name = 'Creeper Overhaul'
+side = 'both'
+
+[download]
+hash = '340102f70c02f0399a51e0bed8ebb0ee306f413654710e213eecfa14ac1210b370923da43222609ba0892a3c00cfed315001b87242780e01b1f5432987cbecf1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MI1LWe93/versions/jm4WZz4c/creeperoverhaul-2.0.9-forge.jar'
+
+[update.modrinth]
+mod-id = 'MI1LWe93'
+version = 'jm4WZz4c'

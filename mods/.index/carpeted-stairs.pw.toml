@@ -1,0 +1,13 @@
+filename = 'carpeted-1.19.2-1.8.jar'
+name = 'Carpeted Stairs & Slabs'
+side = 'both'
+
+[download]
+hash = '84790c0cd10ada5904e02b7a6500efda406658c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4806696
+project-id = 720848

@@ -1,0 +1,13 @@
+filename = 'hardcorerevival-forge-1.19.2-9.0.2.jar'
+name = 'Hardcore Revival'
+side = 'both'
+
+[download]
+hash = '48c0ad88cdca6fd36e39cb64db601557987e3a08'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4442611
+project-id = 274036

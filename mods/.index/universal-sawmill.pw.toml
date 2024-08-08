@@ -1,0 +1,13 @@
+filename = 'sawmill-1.19-1.2.0.jar'
+name = 'Sawmill'
+side = 'both'
+
+[download]
+hash = '89b256838b09089be4ff4590439a681edf2772b20e203ad40a69354da40c6655f257cf1be7b0da615812f29f70a20396548a0e538ed90c4086b1cb900a0cfadf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WRaRZdTd/versions/ueQ31MJ8/sawmill-1.19-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'WRaRZdTd'
+version = 'ueQ31MJ8'

@@ -1,0 +1,13 @@
+filename = 'potiondescriptions-1.19.2-1.8-forge.jar'
+name = 'Potion Descriptions'
+side = 'client'
+
+[download]
+hash = '09bb4efd99a78604542ea629ac7fce12260a7f69b50b366e99707c26fe51b981d060cd17dcece0fe01237c50235d8bb0ffe30cfbec47dc3ce128ee8dde40c836'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IeEUOwPx/versions/p4BbvUf5/potiondescriptions-1.19.2-1.8-forge.jar'
+
+[update.modrinth]
+mod-id = 'IeEUOwPx'
+version = 'p4BbvUf5'

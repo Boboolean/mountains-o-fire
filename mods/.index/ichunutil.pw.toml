@@ -1,0 +1,13 @@
+filename = 'iChunUtil-1.19.2-Forge-1.0.0.jar'
+name = 'iChunUtil'
+side = 'both'
+
+[download]
+hash = 'c4489861428588797db5a4ad8118f70e532e95458c6e6876f342e87ae39bec40eee6dbbae50072e75ba903164b5e26d529d9afb9bca77b661a005f98d88886de'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W6ROj0Hl/versions/CplS92u9/iChunUtil-1.19.2-Forge-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'W6ROj0Hl'
+version = 'CplS92u9'

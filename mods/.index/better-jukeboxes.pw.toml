@@ -1,0 +1,13 @@
+filename = 'betterjukebox-1.19.2-1.4.jar'
+name = 'Better Jukeboxes'
+side = 'both'
+
+[download]
+hash = 'e5b9deaf94f2eae2273dfb51cca337b7bf5da579'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4708924
+project-id = 891937

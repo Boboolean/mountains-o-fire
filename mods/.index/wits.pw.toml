@@ -1,0 +1,13 @@
+filename = 'wits-1.1.0+1.19.2-forge.jar'
+name = 'WITS (What Is This Structure?)'
+side = 'server'
+
+[download]
+hash = 'ada28dcf1925e02bf4d623e6435dfff4a11cc2b0547d9bbd54966fab3a4c476fb9094861bb62b6d9560fda6fbaccd058e50cd7dc80356dc69800b31410f83b7a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AVo2esap/versions/949X1ZT4/wits-1.1.0%2B1.19.2-forge.jar'
+
+[update.modrinth]
+mod-id = 'AVo2esap'
+version = '949X1ZT4'
