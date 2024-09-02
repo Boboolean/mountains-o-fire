@@ -1,5 +1,0 @@
-
-[general]
-	#Enable logs for removing items from inventories, drops and other events
-	enableLogs = false
-
