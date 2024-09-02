@@ -285,7 +285,7 @@
 				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 				rarity = "RARE"
 				#If the Enchantment is a Treasure
-				treasure = false
+				treasure = true
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
 				#If the Enchantment can be on books
@@ -313,11 +313,11 @@
 
 			[general.base.swift."General Settings"]
 				#If the Enchantment is Obtainable
-				enabled = true
+				enabled = false
 				#If the Enchantment has any effect
-				activated = true
+				activated = false
 				#If the Enchantment is discoverable
-				discoverable = true
+				discoverable = false
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -332,7 +332,7 @@
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
 				#If the Enchantment can be on books
-				canBeOnBook = true
+				canBeOnBook = false
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 14
@@ -360,11 +360,11 @@
 
 			[general.base.sages_blessing."General Settings"]
 				#If the Enchantment is Obtainable
-				enabled = true
+				enabled = false
 				#If the Enchantment has any effect
-				activated = true
+				activated = false
 				#If the Enchantment is discoverable
-				discoverable = true
+				discoverable = false
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -379,7 +379,7 @@
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
 				#If the Enchantment can be on books
-				canBeOnBook = true
+				canBeOnBook = false
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 15
@@ -1544,11 +1544,11 @@
 
 			[general.base.icarus_aegis."General Settings"]
 				#If the Enchantment is Obtainable
-				enabled = true
+				enabled = false
 				#If the Enchantment has any effect
-				activated = true
+				activated = false
 				#If the Enchantment is discoverable
-				discoverable = true
+				discoverable = false
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1563,7 +1563,7 @@
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
 				#If the Enchantment can be on books
-				canBeOnBook = true
+				canBeOnBook = false
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 16
@@ -1637,11 +1637,11 @@
 
 			[general.base.endest_reap."General Settings"]
 				#If the Enchantment is Obtainable
-				enabled = true
+				enabled = false
 				#If the Enchantment has any effect
-				activated = true
+				activated = false
 				#If the Enchantment is discoverable
-				discoverable = true
+				discoverable = false
 				#Minimum Enchantment Level
 				#Range: > 0
 				min_level = 1
@@ -1656,7 +1656,7 @@
 				#If the Enchantment is Tradeable by Villagers
 				tradeable = false
 				#If the Enchantment can be on books
-				canBeOnBook = true
+				canBeOnBook = false
 				#Minimum Level for Enchanting
 				#Range: > 0
 				base_cost = 30

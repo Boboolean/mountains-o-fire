@@ -10,7 +10,7 @@ allowBreakItem = false
 #Max percentage of damage
 #最大损坏百分比
 #Range: 0 ~ 100
-maxDamagePercent = 50
+maxDamagePercent = 33
 #Min power of enchantment
 #最小附魔权重
 #Range: 0 ~ 100

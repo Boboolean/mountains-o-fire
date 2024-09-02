@@ -528,13 +528,13 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 10
+			spawn_rate = 15
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
-			min_group_size = 4
+			min_group_size = 3
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 8
+			max_group_size = 7
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0

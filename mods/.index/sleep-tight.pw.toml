@@ -1,0 +1,13 @@
+filename = 'sleep_tight-1.19.2-1.1.2.jar'
+name = 'Sleep Tight'
+side = 'both'
+
+[download]
+hash = 'd4a203de69b274e581a74041acfdad2cc2f776b2388604fdd33ecfddf12ba7e3b0cdffb4fec6fd7817156b4bec199e961f9d0deb2a3328ac4c2b175445559abd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tNai0h2Y/versions/nnXUHGWk/sleep_tight-1.19.2-1.1.2.jar'
+
+[update.modrinth]
+mod-id = 'tNai0h2Y'
+version = 'nnXUHGWk'

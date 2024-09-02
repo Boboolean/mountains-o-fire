@@ -1,0 +1,13 @@
+filename = 'Tips-Forge-1.19.2-8.0.27.jar'
+name = 'Tips'
+side = 'client'
+
+[download]
+hash = '015ca5cdd0566c565275a191af0bf080b56c927c44cd18e98b95cb3b5d45c7cfbffa42dcf5cea2f6f10fff694e8012d420a0daecc34045dbcd91560fd5284bf6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AMCbgyVw/versions/pCg4M609/Tips-Forge-1.19.2-8.0.27.jar'
+
+[update.modrinth]
+mod-id = 'AMCbgyVw'
+version = 'pCg4M609'

@@ -1,0 +1,13 @@
+filename = 'maptooltip-forge-1.19.2-2.0.1.jar'
+name = 'Map Tooltip'
+side = 'both'
+
+[download]
+hash = '475b983c6a571947fdc062c8787b335ff1e04611'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4123317
+project-id = 384852

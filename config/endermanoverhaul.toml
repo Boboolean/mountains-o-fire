@@ -1,6 +1,6 @@
 allowSpawning = true
 spawnBadlandsEnderman = true
-spawnCaveEnderman = false
+spawnCaveEnderman = true
 spawnCrimsonForestEnderman = true
 spawnDarkOakEnderman = true
 spawnDesertEnderman = true

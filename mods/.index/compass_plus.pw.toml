@@ -1,0 +1,13 @@
+filename = 'CompassPlus-1.19.2-1.1.0.jar'
+name = 'Compass Plus'
+side = 'client'
+
+[download]
+hash = '0fbfe14657bfdcb6850d709ada3b34bec72d9f5cadb53e9fe6693475e13320ce6994a0d6b3882a1d1041f4b7c32e3a1c3f6159196a25568e36f8f7a56fd11f40'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xI5eonVo/versions/YmwQ2SXi/CompassPlus-1.19.2-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'xI5eonVo'
+version = 'YmwQ2SXi'

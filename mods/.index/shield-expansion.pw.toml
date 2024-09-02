@@ -1,13 +1,13 @@
 filename = 'ShieldExpansion-1.19.2-1.1.7a.jar'
 name = 'Shield Expansion'
-side = 'server'
+side = 'both'
 
 [download]
-hash = '8a741d65fce01b294ca141675c25ac8ae2e330e1c790a7e8db952cc17917415b2d5e9e7a23ac6171609115082cc429da5c25a83e4aaa2c42cffec85ca1a192a1'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/sjxWxSao/versions/XrY3bX6F/ShieldExpansion-1.19.2-1.1.7a.jar'
+hash = '6890095c802b15d20375a3a98730ba2e182f33bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'sjxWxSao'
-version = 'XrY3bX6F'
+[update.curseforge]
+file-id = 5028350
+project-id = 583318

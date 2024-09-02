@@ -33,12 +33,12 @@ _version = 2
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "MEDIUM"
+				verticalQuality = "HIGH"
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "HIGH"
 				#
 				# How should LOD transparency be handled. 
 				# 
@@ -57,7 +57,7 @@ _version = 2
 				# 
 				# True: a red flower will tint the grass below it red. 
 				# False: skipped blocks will not change color of surface below them.
-				tintWithAvoidedBlocks = true
+				tintWithAvoidedBlocks = false
 
 			[client.advanced.graphics.fog]
 				#
@@ -69,7 +69,7 @@ _version = 2
 				# FOG_DISABLED: Always draw fast fog on the LODs 
 				# 
 				# Disabling fog will improve GPU performance.
-				drawMode = "FOG_ENABLED"
+				drawMode = "USE_OPTIFINE_SETTING"
 				# At what distance should Fog be drawn on the LODs?
 				# 
 				distance = "FAR"
@@ -78,7 +78,7 @@ _version = 2
 				# 
 				# USE_WORLD_FOG_COLOR: Use the world's fog color. 
 				# USE_SKY_COLOR: Use the sky's color.
-				colorMode = "USE_WORLD_FOG_COLOR"
+				colorMode = "USE_SKY_COLOR"
 				#
 				# Should Minecraft's fog be disabled? 
 				# 
@@ -243,7 +243,7 @@ _version = 2
 				# Holes are most likely to appear when flying through unloaded terrain. 
 				# 
 				# Increasing the vanilla render distance increases the effectiveness of this setting.
-				overdrawPrevention = "0.4"
+				overdrawPrevention = "0.6"
 				# Buggy experimental option that will attempt to match up 
 				# Distant Horizons' and Minecraft's near/far clip planes, 
 				# reducing overdraw. 
@@ -294,7 +294,7 @@ _version = 2
 				# Note: Due to current limitations, the min value is 50 
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
-				earthCurveRatio = 0
+				earthCurveRatio = 100
 				#
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
@@ -483,7 +483,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfFileHandlerThreads = 1
+			numberOfFileHandlerThreads = 2
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -491,7 +491,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForFileHandlerThreads = "0.5"
+			runTimeRatioForFileHandlerThreads = "1.0"
 			#
 			# How many threads should be used when building LODs? 
 			# 
@@ -502,7 +502,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfLodBuilderThreads = 1
+			numberOfLodBuilderThreads = 2
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -535,7 +535,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfUpdatePropagatorThreads = 1
+			numberOfUpdatePropagatorThreads = 2
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -543,7 +543,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForUpdatePropagatorThreads = "0.25"
+			runTimeRatioForUpdatePropagatorThreads = "0.5"
 
 		[client.advanced.buffers]
 			#
@@ -651,7 +651,7 @@ _version = 2
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DEFAULT"
+			rendererMode = "DISABLED"
 			#
 			# Should specialized colors/rendering modes be used? 
 			# 

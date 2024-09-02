@@ -1,0 +1,103 @@
+
+[types]
+
+	[types.leaves_type]
+
+		[types.leaves_type.blue_skies]
+			crystallized = true
+			crescent_fruit = true
+			bluebright = true
+			starlit = true
+			frostbright = true
+			lunar = true
+			dusk = true
+			maple = true
+			cherry = true
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.leaves_type.malum]
+			runewood = true
+			soulwood = true
+
+		[types.leaves_type.endlessbiomes]
+			penumbral = true
+			glowing_penumbral = true
+
+	[types.wood_type]
+
+		[types.wood_type.blue_skies]
+			crystallized = true
+			bluebright = true
+			starlit = true
+			frostbright = true
+			lunar = true
+			dusk = true
+			maple = true
+			cherry = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.wood_type.malum]
+			runewood = true
+			soulwood = true
+
+		[types.wood_type.endlessbiomes]
+			penumbra = true
+			twisted = true
+
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.handcrafted]
+			counter = true
+			corner_trim = true
+			fancy_bed = true
+			desk = true
+			shelf = true
+			nightstand = true
+			shelf_1 = true
+			cupboard = true
+			dining_bench = true
+			bench = true
+			board = true
+			couch = true
+			drawer_4 = true
+			drawer_1 = true
+			table = true
+			drawer_3 = true
+			chair = true
+			drawer_2 = true
+			cupboard_2 = true
+			drawer = true
+			cupboard_1 = true
+			pillar_trim = true
+			counter_1 = true
+			counter_2 = true
+			side_table = true
+			counter_3 = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+

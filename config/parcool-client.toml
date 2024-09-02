@@ -17,7 +17,7 @@
 	can_Roll = false
 	can_SkyDive = true
 	can_Slide = true
-	can_Tap = false
+	can_Tap = true
 	can_Vault = false
 	can_VerticalWallRun = true
 	can_WallJump = true
@@ -44,7 +44,7 @@
 	#Enable custom animations
 	enable_animation = true
 	#Enable custom animation of falling
-	enable_falling_animation = true
+	enable_falling_animation = false
 	#Enable first-person-view animations
 	enable_fov_animation = true
 	#Enable rotation of camera by Dodge
@@ -149,11 +149,11 @@
 		#Range: 0 ~ 10000
 		stamina_consumption_of_BreakfallReady = 0
 		#Range: 0 ~ 10000
-		stamina_consumption_of_CatLeap = 150
+		stamina_consumption_of_CatLeap = 200
 		#Range: 0 ~ 10000
 		stamina_consumption_of_ClimbPoles = 0
 		#Range: 0 ~ 10000
-		stamina_consumption_of_ClimbUp = 150
+		stamina_consumption_of_ClimbUp = 200
 		#Range: 0 ~ 10000
 		stamina_consumption_of_ClingToCliff = 2
 		#Range: 0 ~ 10000
@@ -185,9 +185,9 @@
 		#Range: 0 ~ 10000
 		stamina_consumption_of_Vault = 50
 		#Range: 0 ~ 10000
-		stamina_consumption_of_VerticalWallRun = 150
+		stamina_consumption_of_VerticalWallRun = 200
 		#Range: 0 ~ 10000
-		stamina_consumption_of_WallJump = 120
+		stamina_consumption_of_WallJump = 200
 		#Range: 0 ~ 10000
 		stamina_consumption_of_WallSlide = 2
 		#additional stamina mod dependency(only when it's installed)
@@ -201,7 +201,7 @@
 		#ParCool consume hanger value instead of stamina
 		use_hanger_instead = false
 		#Range: 300 ~ 10000
-		max_stamina = 2000
+		max_stamina = 1000
 		#Range: 1 ~ 10000
 		stamina_recovery = 20
 

@@ -31,17 +31,17 @@
 		manaBarXOffset = 0
 		manaBarTextVisible = true
 		#Allowed Values: Hunger, XP, Center, TopLeft, TopRight, BottomLeft, BottomRight
-		manaBarAnchor = "Hunger"
+		manaBarAnchor = "XP"
 		manaTextXOffset = 0
-		manaTextYOffset = 0
+		manaTextYOffset = 4
 
 	[UI.SpellBar]
 		#By default (Always), the spell bar always shows the spells in your equipped spellbook. Contextual will hide them when not in use.
 		#Allowed Values: Never, Always, Contextual
 		spellBarDisplay = "Always"
 		#Used to adjust spell bar's position.
-		spellBarXOffset = 0
-		spellBarYOffset = 0
+		spellBarXOffset = -35
+		spellBarYOffset = 23
 		#Allowed Values: Hotbar, TopLeft, TopRight, BottomLeft, BottomRight
 		spellBarAnchor = "Hotbar"
 

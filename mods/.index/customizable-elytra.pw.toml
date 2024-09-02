@@ -1,0 +1,13 @@
+filename = 'customizableelytra-1.19.0-1.7.4.jar'
+name = 'Customizable Elytra'
+side = 'both'
+
+[download]
+hash = '442b7793070f275c864cdccbf1b570fda1532385'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4101953
+project-id = 440047

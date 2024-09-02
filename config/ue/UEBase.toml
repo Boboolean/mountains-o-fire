@@ -64,7 +64,7 @@
 	#If Applicable tools should be displayed below the Enchantment
 	"Enable Applicable Tool-Icons" = true
 	#If Icons should be displayed. Can be toggled ingame with a key
-	"Show Enchantment Icons" = true
+	"Show Enchantment Icons" = false
 	#How many Icons should be visible underneath the Enchantment
 	#Everything: Shows every item that could have said Enchantment applied
 	#Normal: Applies a basic filter to remove duplicates

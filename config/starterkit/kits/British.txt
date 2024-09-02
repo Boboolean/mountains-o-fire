@@ -11,7 +11,7 @@
 5 : '{Count:13b,id:"corn_delight:tortilla_chip"}',
 6 : '{Count:1b,id:"aquaculture:fish_fillet_cooked"}',
 7 : '{Count:1b,id:"minecraft:written_book",tag:{author:"Cladriel",filtered_title:"Brit in a Bit",pages:[‵{"text":"If greeting, say:\\nCheers, mate.\\nIf happy, say:\\nI\‵m absolutely chuffed to bits.\\nIf tired, say:\\nI\‵m knackered.\\nIf surprised, say:\\nI\‵m Gobsmacked!\\nNever forget:\\nR.I.P. Queen Elizabeth II September 8, 2022\\n\\n\\n"}‵,‵{"text":"If in trouble, shoot cannon (let your British instinct take over). \\n\\nCongrats! After careful review, this booked has deemed you are now ready to be british."}‵],resolved:1b,title:"Brit in a Bit"}}',
-8 : '{Count:1b,id:"akashictome:tome",tag:{"akashictome:data":{irons_spellbooks:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"irons_spellbooks:iss_guide_book"}},mahoutsukai:{Count:1b,id:"mahoutsukai:guidebook"},parcool:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"parcool:parcool_guide"}}}}}',
+8 : '{Count:1b,id:"akashictome:tome",tag:{"akashictome:data":{irons_spellbooks:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"irons_spellbooks:iss_guide_book"}},parcool:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"parcool:parcool_guide"}}}}}',
 9 : '',
 10 : '',
 11 : '',
