@@ -1,0 +1,13 @@
+filename = 'L_Enders_Cataclysm-1.99.2-1.19.2.jar'
+name = "L_Ender's Cataclysm"
+side = 'both'
+
+[download]
+hash = '18659b96d01fdca3197e8f8a3ec112aef9caa88a7696c4d0f5b48979788d96f2c3a9cfb2af5ce863ffbb5fc0edcd9719709b6834da1cf3ed9498eee9bb513f9a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/46KJle7n/versions/fUDkl8Bn/L_Enders_Cataclysm-1.99.2-1.19.2.jar'
+
+[update.modrinth]
+mod-id = '46KJle7n'
+version = 'fUDkl8Bn'

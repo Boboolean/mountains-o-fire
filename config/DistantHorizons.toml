@@ -651,7 +651,7 @@ _version = 2
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			#
 			# Should specialized colors/rendering modes be used? 
 			# 
