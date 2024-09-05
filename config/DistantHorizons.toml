@@ -38,7 +38,7 @@ _version = 2
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "HIGH"
+				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
@@ -69,10 +69,7 @@ _version = 2
 				# FOG_DISABLED: Always draw fast fog on the LODs 
 				# 
 				# Disabling fog will improve GPU performance.
-				drawMode = "USE_OPTIFINE_SETTING"
-				# At what distance should Fog be drawn on the LODs?
-				# 
-				distance = "FAR"
+				drawMode = "FOG_ENABLED"
 				#
 				# What color should fog use? 
 				# 
@@ -243,17 +240,7 @@ _version = 2
 				# Holes are most likely to appear when flying through unloaded terrain. 
 				# 
 				# Increasing the vanilla render distance increases the effectiveness of this setting.
-				overdrawPrevention = "0.6"
-				# Buggy experimental option that will attempt to match up 
-				# Distant Horizons' and Minecraft's near/far clip planes, 
-				# reducing overdraw. 
-				# 
-				# Only functional on Fabric.
-				# Works best with an overdraw prevention setting of MEDIUM or higher 
-				#  and cave culling is disabled. 
-				# 
-				# 
-				seamlessOverdraw = false
+				overdrawPrevention = "0.4"
 				#
 				# How bright LOD colors are. 
 				# 
@@ -294,7 +281,7 @@ _version = 2
 				# Note: Due to current limitations, the min value is 50 
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
-				earthCurveRatio = 100
+				earthCurveRatio = 0
 				#
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
@@ -359,7 +346,7 @@ _version = 2
 			# How long should a world generator thread run for before timing out? 
 			# Note: If you are experiencing timeout errors it is better to lower your CPU usage first 
 			# via the thread config before changing this value.
-			worldGenerationTimeoutLengthInSeconds = 120
+			worldGenerationTimeoutLengthInSeconds = 180
 
 		[client.advanced.multiplayer]
 			#
@@ -463,7 +450,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfWorldGenerationThreads = 2
+			numberOfWorldGenerationThreads = 1
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -471,7 +458,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForWorldGenerationThreads = "0.75"
+			runTimeRatioForWorldGenerationThreads = "0.5"
 			#
 			# How many threads should be used when reading/writing LOD data to/from disk? 
 			# 
@@ -483,7 +470,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfFileHandlerThreads = 2
+			numberOfFileHandlerThreads = 1
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -491,32 +478,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForFileHandlerThreads = "1.0"
-			#
-			# How many threads should be used when building LODs? 
-			# 
-			# These threads run when terrain is generated, when
-			# certain graphics settings are changed, and when moving around the world. 
-			# 
-			# Multi-threading Note: 
-			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
-			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
-			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfLodBuilderThreads = 2
-			#
-			# If this value is less than 1.0, it will be treated as a percentage 
-			# of time each thread can run before going idle. 
-			# 
-			# This can be used to reduce CPU usage if the thread count 
-			# is already set to 1 for the given option, or more finely 
-			# tune CPU performance.
-			runTimeRatioForLodBuilderThreads = "0.5"
-			#
-			# Should only be disabled if deadlock occurs and LODs refuse to update. 
-			# This will cause CPU usage to drastically increase for the Lod Builder threads. 
-			# 
-			# Note that if deadlock did occur restarting MC may be necessary to stop the locked threads.
-			enableLodBuilderThreadLimiting = true
+			runTimeRatioForFileHandlerThreads = "0.5"
 			#
 			# How many threads should be used when applying LOD updates? 
 			# An LOD update is the operation of down-sampling a high detail LOD 
@@ -535,7 +497,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfUpdatePropagatorThreads = 2
+			numberOfUpdatePropagatorThreads = 1
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -543,7 +505,32 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForUpdatePropagatorThreads = "0.5"
+			runTimeRatioForUpdatePropagatorThreads = "0.25"
+			#
+			# How many threads should be used when building LODs? 
+			# 
+			# These threads run when terrain is generated, when
+			# certain graphics settings are changed, and when moving around the world. 
+			# 
+			# Multi-threading Note: 
+			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
+			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
+			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
+			numberOfLodBuilderThreads = 1
+			#
+			# If this value is less than 1.0, it will be treated as a percentage 
+			# of time each thread can run before going idle. 
+			# 
+			# This can be used to reduce CPU usage if the thread count 
+			# is already set to 1 for the given option, or more finely 
+			# tune CPU performance.
+			runTimeRatioForLodBuilderThreads = "0.25"
+			#
+			# Should only be disabled if deadlock occurs and LODs refuse to update. 
+			# This will cause CPU usage to drastically increase for the Lod Builder threads. 
+			# 
+			# Note that if deadlock did occur restarting MC may be necessary to stop the locked threads.
+			enableLodBuilderThreadLimiting = true
 
 		[client.advanced.buffers]
 			#
@@ -581,13 +568,6 @@ _version = 2
 			# NOTE:
 			# Before changing this config, try changing the "GPU Upload method" first.
 			gpuUploadPerMegabyteInMilliseconds = 0
-			# If true geometry data will be uploaded on a DH controlled thread, reducing FPS stuttering. 
-			# If false uploading will be done on Minecraft's main rendering thread. 
-			# 
-			# Setting this to false may reduce crashes or corrupted geometry on systems with an AMD GPU when Sodium is installed.
-			# 
-			# 
-			gpuUploadAsync = true
 
 		[client.advanced.autoUpdater]
 			#
@@ -600,7 +580,7 @@ _version = 2
 			# If DH should use the nightly (provided by Gitlab), or stable (provided by Modrinth) build. 
 			# If [AUTO] is selected DH will update to new stable releases if the current jar is a stable jar 
 			# and will update to new nightly builds if the current jar is a nightly jar (IE the version number ends in '-dev').
-			updateBranch = "STABLE"
+			updateBranch = "AUTO"
 
 		[client.advanced.logging]
 			#
@@ -697,15 +677,6 @@ _version = 2
 				#
 				# Render LOD section status?
 				showRenderSectionStatus = false
-				# Render full data file status?
-				# 
-				showFullDataFileStatus = false
-				# Render full data file sampling progress?
-				# 
-				showFullDataFileSampling = false
-				# Render render data file status?
-				# 
-				showRenderDataFileStatus = false
 				#
 				# Render Quad Tree Rendering status?
 				showQuadTreeRenderStatus = false

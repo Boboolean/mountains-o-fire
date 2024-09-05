@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Corality made by Awoolanche",
+        "pack_format": 18,
+        "supported_formats": {"min_inclusive": 4, "max_inclusive": 99}
+    }
+}

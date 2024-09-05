@@ -1,6 +1,6 @@
 {
 	// If enabled, damages the user whenever they create an experience bottle.
-	"damageOnCreation": true,
+	"damageOnCreation": false,
 	// The amount of damage the user takes times half a heart when creating an experience bottle.
 	// min: 1, max: 20
 	"halfHeartDamageAmount": 1,
