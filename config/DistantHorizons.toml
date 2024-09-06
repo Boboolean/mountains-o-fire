@@ -33,7 +33,7 @@ _version = 2
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "HIGH"
+				verticalQuality = "MEDIUM"
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
@@ -75,7 +75,7 @@ _version = 2
 				# 
 				# USE_WORLD_FOG_COLOR: Use the world's fog color. 
 				# USE_SKY_COLOR: Use the sky's color.
-				colorMode = "USE_SKY_COLOR"
+				colorMode = "USE_WORLD_FOG_COLOR"
 				#
 				# Should Minecraft's fog be disabled? 
 				# 
@@ -631,7 +631,7 @@ _version = 2
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DEFAULT"
+			rendererMode = "DISABLED"
 			#
 			# Should specialized colors/rendering modes be used? 
 			# 

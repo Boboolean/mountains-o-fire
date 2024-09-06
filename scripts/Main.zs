@@ -124,6 +124,22 @@ craftingTable.addShaped("druidic_spell_book",<item:irons_spellbooks:druidic_spel
     [<item:irons_spellbooks:magic_cloth>,<item:minecraft:honey_bottle>,<item:minecraft:air>]
 ]);
 
+craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 12, [
+    [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>],
+    [<item:minecraft:phantom_membrane>,<item:minecraft:lingering_potion>.withTag({Potion: "undergarden:strong_featherweight"}),<item:minecraft:phantom_membrane>],
+    [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>]
+]);
+
+craftingTable.addShaped("engine",<item:vs_eureka:engine>, [
+    [<item:minecraft:water_bucket>,<item:supplementaries:faucet>,<item:infernalexp:quartz_glass>],
+    [<item:minecraft:piston>,<item:minecraft:blast_furnace>,<item:blocky_siege:cast_iron_trapdoor>],
+    [<item:astikorcarts:wheel>,<item:minecraft:smooth_stone>,<item:minecraft:smooth_stone>]
+]);
+
+craftingTable.addShapeless("floater", <item:vs_eureka:floater> * 4, [
+    <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:minecraft:barrel>
+]);
+
 craftingTable.removeByName("map_atlases:craft_atlas");
 craftingTable.removeByName("disenchanting:disenchanter");
 craftingTable.removeByName("minecraft:enchanting_table");
@@ -145,3 +161,7 @@ craftingTable.removeByName("meetyourfight:spectres_eye");
 craftingTable.removeByName("meetyourfight:spectres_grasp");
 craftingTable.removeByName("meetyourfight:cocktail_cutlass");
 craftingTable.removeByName("irons_spellbooks:druidic_spell_book");
+<recipetype:cataclysm:weapon_fusion>.remove(<item:cataclysm:ignitium_elytra_chestplate>);
+craftingTable.removeByRegex(".*balloon_.*");
+craftingTable.removeByName("vs_eureka:engine");
+craftingTable.removeByName("vs_eureka:floater");
