@@ -1,6 +1,0 @@
-{
-  "parent": "block/tall_cross",
-  "textures": {
-    "tall_plant": "block/tall_fire_coral2"
-  }
-}
