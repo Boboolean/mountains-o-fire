@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Place coralstone next to a living coral to color the stone.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

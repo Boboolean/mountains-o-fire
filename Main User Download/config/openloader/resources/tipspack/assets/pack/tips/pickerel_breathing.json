@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Boil pickerelweed for a consumable airsource underwater.",
+    "bold": false,
+    "color": "yellow"
+  }
+}
