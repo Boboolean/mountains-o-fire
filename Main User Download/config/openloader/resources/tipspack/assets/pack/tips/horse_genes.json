@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Be sure to keep your horse gene pool diverse.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

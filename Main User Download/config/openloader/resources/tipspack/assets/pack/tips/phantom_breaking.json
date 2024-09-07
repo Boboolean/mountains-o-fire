@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Phantoms will attempt to break dreamer essence if they manage to reach it. This can be used to your advantage as a way to attract phantoms!",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Ice spells slow enemies.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

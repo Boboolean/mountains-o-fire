@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Make good food. You won't survive long without it.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

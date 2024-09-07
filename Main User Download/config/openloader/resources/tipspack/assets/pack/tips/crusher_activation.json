@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Give a crusher redstone power to activate it.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

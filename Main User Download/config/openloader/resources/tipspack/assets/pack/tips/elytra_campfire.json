@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can’t use fireworks to power elytras anymore, but you can use campfires for a boost.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "If a friend is on fire, you can use a splash potion of water to put them out.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Are you the tank of your group? Use the aggronizing enchantment to keep hostile attention on you while others support you.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

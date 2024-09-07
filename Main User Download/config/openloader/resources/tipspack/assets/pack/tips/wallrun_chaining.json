@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can chain horizontal wall runs and jumps!",
+    "bold": false,
+    "color": "yellow"
+  }
+}

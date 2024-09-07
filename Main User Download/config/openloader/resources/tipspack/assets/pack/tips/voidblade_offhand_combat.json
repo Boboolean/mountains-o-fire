@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Try melee combat with a void-touched blade in your offhand.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

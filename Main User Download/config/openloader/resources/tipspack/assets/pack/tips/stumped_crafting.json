@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "If you’re unsure how to use a mod, try reverse engineering crafting recipes in jei or finding a guidebook for said mod. Some learning will also require trial and error!",
+    "bold": false,
+    "color": "yellow"
+  }
+}

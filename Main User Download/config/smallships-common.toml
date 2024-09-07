@@ -166,3 +166,4 @@ schematicVersion = 4
 			#Specify biome type for the Drakkar. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
 			shipModifierDrakkarBiome = "COLD"
+

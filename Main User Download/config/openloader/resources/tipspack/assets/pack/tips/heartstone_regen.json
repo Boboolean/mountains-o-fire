@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Sleeping with your heartstone partner grants 90 seconds of regeneration.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Is it getting hard in here or is it just me?",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Don't bring your tools into the everrealms.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

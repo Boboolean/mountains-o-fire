@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can leap a 9-block wide gap with the cat leap!",
+    "bold": false,
+    "color": "yellow"
+  }
+}

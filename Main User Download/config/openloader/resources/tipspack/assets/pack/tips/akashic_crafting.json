@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can store more guidebooks in your Akashic tome by crafting them together.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

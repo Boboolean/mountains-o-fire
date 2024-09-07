@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "A bigger spellbook means more ways to save your own life.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

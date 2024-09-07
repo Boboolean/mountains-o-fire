@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Only you can become encumbered. Boats and horses cannot!",
+    "bold": false,
+    "color": "yellow"
+  }
+}

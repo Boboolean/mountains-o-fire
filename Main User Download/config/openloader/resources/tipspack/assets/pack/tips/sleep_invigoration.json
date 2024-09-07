@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You are granted the invigorated effect whenever you sleep in a home bed.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

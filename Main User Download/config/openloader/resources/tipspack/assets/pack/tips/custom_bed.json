@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can craft a bed with a banner to make custom bed sheets.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "It would be wise to live near a seaport.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

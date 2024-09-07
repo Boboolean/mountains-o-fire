@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Surround a blast furnace with cast iron and put a carved pumpkin on top to create a powerful spewer golem.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

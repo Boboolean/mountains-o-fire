@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "A heated spewer can easily kill a warden.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

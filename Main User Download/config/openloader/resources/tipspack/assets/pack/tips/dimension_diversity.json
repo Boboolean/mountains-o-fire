@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Be sure to explore every dimension; they all yield useful resources.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

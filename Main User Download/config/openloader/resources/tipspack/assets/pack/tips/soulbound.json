@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Protect your items when you die with Soulbound.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

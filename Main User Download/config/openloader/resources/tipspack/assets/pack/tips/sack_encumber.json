@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can carry two full sacks without becoming encumbered.",
+    "bold": false,
+    "color": "yellow"
+  }
+}
