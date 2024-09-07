@@ -7,7 +7,7 @@
     "color": "yellow"
   },
   "tip": {
-    "text": "Phantoms will attempt to break dreamer essence if they manage to reach it. This can be used to your advantage as a way to attract phantoms!",
+    "text": "Phantoms will break dreamer essence if they manage to reach it.",
     "bold": false,
     "color": "yellow"
   }

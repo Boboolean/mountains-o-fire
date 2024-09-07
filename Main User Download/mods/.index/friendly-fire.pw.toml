@@ -1,0 +1,13 @@
+filename = 'FriendlyFire-Forge-1.19.2-14.0.5.jar'
+name = 'Friendly Fire'
+side = 'both'
+
+[download]
+hash = '53e5eba0ae3b52b1766253a2ab76c676302e8e9ab6cf3dec692a8d136441a74cd43f82c278ee5b0f1dd2c7ea4f59cf45a0449dd5994e7bebab79b52024a3a975'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FTaA4pRW/versions/wIM7k9JY/FriendlyFire-Forge-1.19.2-14.0.5.jar'
+
+[update.modrinth]
+mod-id = 'FTaA4pRW'
+version = 'wIM7k9JY'
