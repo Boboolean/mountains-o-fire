@@ -7,7 +7,7 @@
     "color": "yellow"
   },
   "tip": {
-    "text": "Protect your items when you die with Soulbound.",
+    "text": "Items enchanted with soulbound will stay with you upon death, at the cost of some durability.",
     "bold": false,
     "color": "yellow"
   }

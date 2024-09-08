@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "The glowsilk bow packs a serious punch.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

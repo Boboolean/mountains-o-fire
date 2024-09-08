@@ -146,3 +146,4 @@ craftingTable.removeByName("meetyourfight:spectres_grasp");
 craftingTable.removeByName("meetyourfight:cocktail_cutlass");
 craftingTable.removeByName("irons_spellbooks:druidic_spell_book");
 <recipetype:cataclysm:weapon_fusion>.remove(<item:cataclysm:ignitium_elytra_chestplate>);
+craftingTable.removeByName("supplementaries:altimeter");

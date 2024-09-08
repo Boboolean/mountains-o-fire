@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Most farmable mobs drop more items if you slay them with a knife.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Place rope over tomatoes to allow them to grow up to three blocks in height.",
+    "bold": false,
+    "color": "yellow"
+  }
+}
