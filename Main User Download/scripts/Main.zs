@@ -9,8 +9,32 @@ craftingTable.addShapedMirrored("atlas", MirrorAxis.ALL, <item:map_atlases:atlas
 
 craftingTable.addShaped("bundle", <item:minecraft:bundle>, [
     [<item:minecraft:string>],
-    [<item:minecraft:leather>]
+    [<item:minecraft:rabbit_hide>]
 ]);
+
+craftingTable.addShaped("machete_iron", <item:nethersdelight:iron_machete>, [
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:iron_ingot>],
+    [<item:minecraft:air>,<item:minecraft:iron_ingot>,<item:minecraft:air>],
+    [<item:minecraft:crimson_stem>,<item:minecraft:air>,<item:minecraft:air>]
+]);
+
+craftingTable.addShaped("machete_gold", <item:nethersdelight:golden_machete>, [
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:gold_ingot>],
+    [<item:minecraft:air>,<item:minecraft:gold_ingot>,<item:minecraft:air>],
+    [<item:minecraft:crimson_stem>,<item:minecraft:air>,<item:minecraft:air>]
+]);
+
+craftingTable.addShaped("machete_diamond", <item:nethersdelight:diamond_machete>, [
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:diamond>],
+    [<item:minecraft:air>,<item:minecraft:diamond>,<item:minecraft:air>],
+    [<item:minecraft:crimson_stem>,<item:minecraft:air>,<item:minecraft:air>]
+]);
+
+craftingTable.addShaped("bundle_blue_skies", <item:minecraft:bundle>, [
+    [<item:minecraft:string>],
+    [<item:blue_skies:fox_pelt>]
+]);
+
 craftingTable.addShaped("disenchanter", <item:disenchanting:disenchanter>, [
     [<item:infernalexp:molten_gold_cluster>,<item:goldenhopper:golden_hopper>,<item:infernalexp:molten_gold_cluster>],
     [<item:minecraft:air>,<item:minecraft:enchanting_table>,<item:minecraft:air>]
@@ -18,8 +42,8 @@ craftingTable.addShaped("disenchanter", <item:disenchanting:disenchanter>, [
 
 craftingTable.addShaped("enchanting_table", <item:minecraft:enchanting_table>, [
     [<item:minecraft:air>,<item:minecraft:book>,<item:minecraft:air>],
-    [<item:minecraft:diamond>,<item:undergarden:utherium_crystal>,<item:minecraft:diamond>],
-    [<item:minecraft:obsidian>,<item:minecraft:obsidian>,<item:minecraft:obsidian>]
+    [<item:minecraft:diamond>,<item:undergarden:utherium_block>,<item:minecraft:diamond>],
+    [<item:minecraft:obsidian>,<item:undergarden:regalium_block>,<item:minecraft:obsidian>]
 ]);
 
 craftingTable.addShaped("enchanting_infuser", <item:enchantinginfuser:enchanting_infuser>, [
@@ -124,6 +148,28 @@ craftingTable.addShaped("druidic_spell_book",<item:irons_spellbooks:druidic_spel
     [<item:irons_spellbooks:magic_cloth>,<item:minecraft:honey_bottle>,<item:minecraft:air>]
 ]);
 
+craftingTable.addShapeless("floater", <item:vs_eureka:floater> * 4, [
+    <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:minecraft:barrel>
+]);
+
+craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 12, [
+    [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>],
+    [<item:minecraft:phantom_membrane>,<item:minecraft:lingering_potion>.withTag({Potion: "undergarden:strong_featherweight"}),<item:minecraft:phantom_membrane>],
+    [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>]
+]);
+
+craftingTable.addShaped("engine",<item:vs_eureka:engine> * 2, [
+    [<item:minecraft:water_bucket>,<item:supplementaries:faucet>,<item:infernalexp:quartz_glass>],
+    [<item:minecraft:piston>,<item:minecraft:blast_furnace>,<item:blocky_siege:cast_iron_trapdoor>],
+    [<item:astikorcarts:wheel>,<item:minecraft:smooth_stone>,<item:minecraft:smooth_stone>]
+]);
+
+craftingTable.addShaped("helm",<item:vs_eureka:crimson_ship_helm>, [
+    [<item:minecraft:crimson_planks>,<item:blue_skies:star_emitter>,<item:minecraft:crimson_planks>],
+    [<item:minecraft:stick>,<item:endertrigon:baby_dragon_egg>,<item:minecraft:stick>],
+    [<item:minecraft:crimson_planks>,<item:minecraft:lodestone>,<item:minecraft:crimson_planks>]
+]);
+
 craftingTable.removeByName("map_atlases:craft_atlas");
 craftingTable.removeByName("disenchanting:disenchanter");
 craftingTable.removeByName("minecraft:enchanting_table");
@@ -146,4 +192,14 @@ craftingTable.removeByName("meetyourfight:spectres_grasp");
 craftingTable.removeByName("meetyourfight:cocktail_cutlass");
 craftingTable.removeByName("irons_spellbooks:druidic_spell_book");
 <recipetype:cataclysm:weapon_fusion>.remove(<item:cataclysm:ignitium_elytra_chestplate>);
-craftingTable.removeByName("supplementaries:altimeter");
+craftingTable.removeByName("blue_skies:bag_of_spoils");
+craftingTable.removeByRegex(".*_fillet_knife.*");
+craftingTable.removeByName("undergardendelight:cloggrum_knife");
+craftingTable.removeByName("undergardendelight:frosteel_knife");
+craftingTable.removeByName("undergardendelight:utherium_knife");
+craftingTable.removeByName("undergardendelight:forgotten_knife");
+craftingTable.removeByRegex(".*_machete.*");
+craftingTable.removeByRegex(".*balloon_.*");
+craftingTable.removeByName("vs_eureka:engine");
+craftingTable.removeByName("vs_eureka:floater");
+craftingTable.removeByRegex(".*ship_helm.*");

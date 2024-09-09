@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Coffee survives better in the nether, but can  consume other fully grown plants to survive in the overworld.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

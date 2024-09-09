@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Put your drinks on a coaster so you don't leave marks.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

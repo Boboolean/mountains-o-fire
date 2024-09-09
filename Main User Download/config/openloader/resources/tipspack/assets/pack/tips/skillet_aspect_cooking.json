@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "A skillet with fire aspect acts as its own heat source.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Organic composting speeds up and slows down depending on sun exposure and nearby moisture.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Biome affects keg ambient brewing temperature. Plan your brewery accordingly! ",
+    "bold": false,
+    "color": "yellow"
+  }
+}

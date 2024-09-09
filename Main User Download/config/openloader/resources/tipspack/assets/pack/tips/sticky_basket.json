@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Harmlessly trap entities with the Sticky basket.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

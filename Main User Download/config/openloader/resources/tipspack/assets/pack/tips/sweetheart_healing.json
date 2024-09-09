@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "The Sweet Heart effect increases incoming healing.",
+    "bold": false,
+    "color": "yellow"
+  }
+}
