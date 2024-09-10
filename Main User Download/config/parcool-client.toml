@@ -149,7 +149,7 @@
 		#Range: 0 ~ 10000
 		stamina_consumption_of_BreakfallReady = 0
 		#Range: 0 ~ 10000
-		stamina_consumption_of_CatLeap = 200
+		stamina_consumption_of_CatLeap = 400
 		#Range: 0 ~ 10000
 		stamina_consumption_of_ClimbPoles = 0
 		#Range: 0 ~ 10000
@@ -192,10 +192,10 @@
 		stamina_consumption_of_WallSlide = 2
 		#additional stamina mod dependency(only when it's installed)
 		#Allowed Values: None, Feathers
-		external_stamina = "Feathers"
+		external_stamina = "None"
 		#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 		#Please check 'parcool-server.toml' in 'serverconfig' directory
-		infinite_stamina = true
+		infinite_stamina = false
 		#Infinite Stamina while player is cretive mode
 		infinite_stamina_if_creative_mode = true
 		#ParCool consume hanger value instead of stamina
@@ -203,5 +203,5 @@
 		#Range: 300 ~ 10000
 		max_stamina = 1000
 		#Range: 1 ~ 10000
-		stamina_recovery = 20
+		stamina_recovery = 10
 

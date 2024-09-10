@@ -7,7 +7,7 @@
     "color": "yellow"
   },
   "tip": {
-    "text": "Soulbound enchanted items are kept upon death, at the cost of some durability.",
+    "text": "Make sure to soulbind your spell book!",
     "bold": false,
     "color": "yellow"
   }

@@ -5,6 +5,19 @@
       "name": "Cladriel",
       "uniqueId": "74694a27-8e49-468a-b939-fc6dcf5228f7"
     },
+    "time": 1725988670245,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xZMXfMVEln"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Cladriel",
+      "uniqueId": "74694a27-8e49-468a-b939-fc6dcf5228f7"
+    },
     "time": 1725730901151,
     "type": "Profiler",
     "data": {

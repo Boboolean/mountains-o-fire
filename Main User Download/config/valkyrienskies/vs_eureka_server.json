@@ -1,7 +1,7 @@
 {
   "enginePowerLinear" : 500000.0,
   "enginePowerLinearMin" : 10000.0,
-  "enginePowerAngular" : 1.0,
+  "enginePowerAngular" : 0.75,
   "enginePowerAngularMin" : 0.0,
   "engineHeatLoss" : 0.01,
   "engineHeatGain" : 0.03,

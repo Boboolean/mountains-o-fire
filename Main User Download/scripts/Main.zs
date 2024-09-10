@@ -12,24 +12,6 @@ craftingTable.addShaped("bundle", <item:minecraft:bundle>, [
     [<item:minecraft:rabbit_hide>]
 ]);
 
-craftingTable.addShaped("machete_iron", <item:nethersdelight:iron_machete>, [
-    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:iron_ingot>],
-    [<item:minecraft:air>,<item:minecraft:iron_ingot>,<item:minecraft:air>],
-    [<item:minecraft:crimson_stem>,<item:minecraft:air>,<item:minecraft:air>]
-]);
-
-craftingTable.addShaped("machete_gold", <item:nethersdelight:golden_machete>, [
-    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:gold_ingot>],
-    [<item:minecraft:air>,<item:minecraft:gold_ingot>,<item:minecraft:air>],
-    [<item:minecraft:crimson_stem>,<item:minecraft:air>,<item:minecraft:air>]
-]);
-
-craftingTable.addShaped("machete_diamond", <item:nethersdelight:diamond_machete>, [
-    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:diamond>],
-    [<item:minecraft:air>,<item:minecraft:diamond>,<item:minecraft:air>],
-    [<item:minecraft:crimson_stem>,<item:minecraft:air>,<item:minecraft:air>]
-]);
-
 craftingTable.addShaped("bundle_blue_skies", <item:minecraft:bundle>, [
     [<item:minecraft:string>],
     [<item:blue_skies:fox_pelt>]
@@ -152,22 +134,10 @@ craftingTable.addShapeless("floater", <item:vs_eureka:floater> * 4, [
     <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:minecraft:barrel>
 ]);
 
-craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 12, [
+craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 4, [
     [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>],
     [<item:minecraft:phantom_membrane>,<item:minecraft:lingering_potion>.withTag({Potion: "undergarden:strong_featherweight"}),<item:minecraft:phantom_membrane>],
     [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>]
-]);
-
-craftingTable.addShaped("engine",<item:vs_eureka:engine> * 2, [
-    [<item:minecraft:water_bucket>,<item:supplementaries:faucet>,<item:infernalexp:quartz_glass>],
-    [<item:minecraft:piston>,<item:minecraft:blast_furnace>,<item:blocky_siege:cast_iron_trapdoor>],
-    [<item:astikorcarts:wheel>,<item:minecraft:smooth_stone>,<item:minecraft:smooth_stone>]
-]);
-
-craftingTable.addShaped("helm",<item:vs_eureka:crimson_ship_helm>, [
-    [<item:minecraft:crimson_planks>,<item:blue_skies:star_emitter>,<item:minecraft:crimson_planks>],
-    [<item:minecraft:stick>,<item:endertrigon:baby_dragon_egg>,<item:minecraft:stick>],
-    [<item:minecraft:crimson_planks>,<item:minecraft:lodestone>,<item:minecraft:crimson_planks>]
 ]);
 
 craftingTable.removeByName("map_atlases:craft_atlas");
@@ -200,6 +170,6 @@ craftingTable.removeByName("undergardendelight:utherium_knife");
 craftingTable.removeByName("undergardendelight:forgotten_knife");
 craftingTable.removeByRegex(".*_machete.*");
 craftingTable.removeByRegex(".*balloon_.*");
-craftingTable.removeByName("vs_eureka:engine");
 craftingTable.removeByName("vs_eureka:floater");
 craftingTable.removeByRegex(".*ship_helm.*");
+craftingTable.removeByName("undergarden:slingshot");
