@@ -3,13 +3,13 @@ crops = []
 # List of in-game IDs for crops that under no condition can be right-click harvested.
 blacklist = []
 # Require holding a hoe (either hands) to right-click harvest.
-"require hoe" = false
+"require hoe" = true
 # If [require hoe] is set to true, damage the hoe of the given amount (0 to disable, must be an integer).
 #Range: > 0
-"damage on harvest" = 0
+"damage on harvest" = 1
 # Amount of experience to grant on harvest (0 to disable, must be an integer).
 #Range: > 0
-"exp on harvest" = 0
+"exp on harvest" = 2
 # Tool tier starting from which it is possible to harvest multiple crops at once.
 # All tiers that cannot multi-harvest will have a 1x1 square area of effect (a single crop).
 # If [starting harvest area size] is set to "single" and [area increment step] to "none" multi-harvest will be effectively disabled, regardless of this config option value.
@@ -33,4 +33,6 @@ blacklist = []
 # "large" - large increment, the size of the area, starting from [starting harvest area size], increases by 6 with each higher tier.E.g. 1x1 -> 7x7 -> 13x13 -> ...
 #Allowed Values: NONE, SMALL, MEDIUM, LARGE
 "area increment step" = "NONE"
+# Whether to use seeds from the player's inventory to replant crops if seeds are not dropped.
+"use seeds from inventory" = true
 
