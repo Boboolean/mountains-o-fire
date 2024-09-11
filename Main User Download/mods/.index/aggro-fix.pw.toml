@@ -1,0 +1,13 @@
+filename = 'aggrofix-1.19.2.jar'
+name = 'Aggro Fix'
+side = 'both'
+
+[download]
+hash = 'ad155909396d1eff9001ec8ddf8b03ae731f798f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5010978
+project-id = 954269
