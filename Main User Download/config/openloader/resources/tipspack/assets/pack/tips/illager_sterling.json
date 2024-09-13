@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Sterling armor is effective in illager combat.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

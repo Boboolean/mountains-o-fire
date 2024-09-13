@@ -7,7 +7,7 @@
     "color": "yellow"
   },
   "tip": {
-    "text": "To create a ballista golem, place these blocks in the shape of an iron golem: use an iron block for the legs, a dispenser for the body, wood logs for the arms, and a carved pumpkin for the head.",
+    "text": "To create a ballista golem, use iron block legs, a dispenser torso, wood log arms, and a carved pumpkin head.",
     "bold": false,
     "color": "yellow"
   }

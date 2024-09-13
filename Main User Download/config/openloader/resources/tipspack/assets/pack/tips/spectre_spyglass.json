@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Bind a spectre to a spyglass with an allurite shard.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

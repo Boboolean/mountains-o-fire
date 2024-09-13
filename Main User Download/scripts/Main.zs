@@ -7,6 +7,11 @@ craftingTable.addShapedMirrored("atlas", MirrorAxis.ALL, <item:map_atlases:atlas
     [<item:minecraft:leather>,<tag:items:map_atlases:sticky_crafting_items>,<item:minecraft:leather>]
 ]);
 
+craftingTable.addShaped("bundle_regular", <item:minecraft:bundle>, [
+    [<item:minecraft:string>],
+    [<item:minecraft:leather>]
+]);
+
 craftingTable.addShaped("bundle", <item:minecraft:bundle>, [
     [<item:minecraft:string>],
     [<item:minecraft:rabbit_hide>]
@@ -138,6 +143,15 @@ craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 4, [
     [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>],
     [<item:minecraft:phantom_membrane>,<item:minecraft:lingering_potion>.withTag({Potion: "undergarden:strong_featherweight"}),<item:minecraft:phantom_membrane>],
     [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>]
+]);
+
+craftingTable.addShapeless("spectre_bottle", <item:galosphere:bottle_of_spectre>, [
+    <item:galosphere:spectre_flare>, <item:minecraft:glass_bottle>
+]);
+
+craftingTable.addShaped("bowl_lichen",<item:galosphere:bowl_lichen>, [
+    [<item:minecraft:glow_lichen>,<item:minecraft:glow_lichen>,<item:minecraft:glow_lichen>],
+    [<item:minecraft:bone_meal>,<item:minecraft:moss_block>,<item:minecraft:bone_meal>]
 ]);
 
 craftingTable.removeByName("map_atlases:craft_atlas");

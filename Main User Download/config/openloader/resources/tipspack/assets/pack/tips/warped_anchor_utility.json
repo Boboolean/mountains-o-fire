@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "A warped anchor uses allurite to redirect a player teleport within 16 blocks of it at max charge.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

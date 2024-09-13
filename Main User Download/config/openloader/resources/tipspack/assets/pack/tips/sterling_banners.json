@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can place a banner on a sterling helmet or sterling horse armor.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Place a lantern in your belt slot when it is dark!",
+    "bold": false,
+    "color": "yellow"
+  }
+}

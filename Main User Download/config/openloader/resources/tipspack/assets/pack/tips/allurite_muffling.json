@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Allurite is effective at obsfucating noise when directly adjacent to a sound producing block.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

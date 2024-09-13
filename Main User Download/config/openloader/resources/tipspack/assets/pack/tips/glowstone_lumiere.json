@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Lumiere in a composter produces glowstone dust.",
+    "bold": false,
+    "color": "yellow"
+  }
+}
