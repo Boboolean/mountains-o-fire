@@ -7,7 +7,7 @@
     "color": "yellow"
   },
   "tip": {
-    "text": "The Sweet Heart effect increases incoming healing.",
+    "text": "The Sweet Heart effect increases incoming all healing.",
     "bold": false,
     "color": "yellow"
   }
