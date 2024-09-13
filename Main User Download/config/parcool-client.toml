@@ -1,21 +1,23 @@
 
-["Possibility of Actions(Some do not have to work)"]
+["Possibility_of_Actions(Some_do_not_have_to_work)"]
 	can_BreakfallReady = true
 	can_CatLeap = true
+	can_ChargeJump = false
 	can_ClimbPoles = false
 	can_ClimbUp = true
 	can_ClingToCliff = true
 	can_Crawl = true
-	can_Dive = true
+	can_Dive = false
 	can_Dodge = false
 	can_FastRun = false
+	can_FastSwim = false
 	can_Flipping = true
 	can_HangDown = true
 	can_HorizontalWallRun = true
-	can_JumpFromBar = true
+	can_JumpFromBar = false
 	can_QuickTurn = false
 	can_Roll = false
-	can_SkyDive = true
+	can_SkyDive = false
 	can_Slide = true
 	can_Tap = true
 	can_Vault = false
@@ -23,7 +25,7 @@
 	can_WallJump = true
 	can_WallSlide = true
 
-["Stamina HUD Configuration"]
+[Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide
 	stamina_hud_type = "Light"
 	#horizontal alignment
@@ -33,20 +35,28 @@
 	#Allowed Values: Top, Bottom
 	align_v_s_hud = "Bottom"
 	hide_hud_if_stamina_infinite = true
-	#horizontal margin of normal HUD
+	#horizontal offset of normal HUD
 	#Range: 0 ~ 100
-	margin_h_stamina_hud = 3
-	#vertical margin of normal HUD
+	offset_h_stamina_hud = 3
+	#vertical offset of normal HUD
 	#Range: 0 ~ 100
-	margin_v_stamina_hud = 3
+	offset_v_stamina_hud = 3
+	#horizontal offset of light HUD
+	#Range: -100 ~ 100
+	offset_h_light_hud = 0
+	#vertical offset of light HUD
+	#Range: -100 ~ 100
+	offset_v_light_hud = 0
 
 [Animations]
 	#Enable custom animations
 	enable_animation = true
 	#Enable custom animation of falling
-	enable_falling_animation = false
+	enable_falling_animation = true
+	#Enable lean animation while FastRun
+	enable_lean_animation_fast_run = true
 	#Enable first-person-view animations
-	enable_fov_animation = true
+	enable_fov_animation = false
 	#Enable rotation of camera by Dodge
 	enable_camera_rotation_dodge = false
 	#Enable rotation of camera by Backward Wall-Jump
@@ -65,14 +75,18 @@
 	[Animations.Animators]
 		enable_BackwardWallJumpAnimator = true
 		enable_CatLeapAnimator = true
+		enable_ChargeJumpAnimator = true
 		enable_ClimbUpAnimator = true
 		enable_ClingToCliffAnimator = true
 		enable_CrawlAnimator = true
-		enable_DiveAnimationHostAnimator = false
+		enable_DiveAnimationHostAnimator = true
+		enable_DiveIntoWaterAnimator = true
 		enable_DodgeAnimator = true
 		enable_FastRunningAnimator = true
+		enable_FastSwimAnimator = true
 		enable_FlippingAnimator = true
 		enable_HorizontalWallRunAnimator = true
+		enable_JumpChargingAnimator = true
 		enable_JumpFromBarAnimator = true
 		enable_HangAnimator = true
 		enable_KongVaultAnimator = true
@@ -88,15 +102,23 @@
 	#Control of FastRun
 	#Allowed Values: PressKey, Toggle, Auto
 	fast-run_control = "PressKey"
-	#Control of FastRun
+	#Control of Crawl
 	#Allowed Values: PressKey, Toggle
 	crawl_control = "PressKey"
+	#Control of Flipping
+	#Allowed Values: PressRightAndLeft, TapMovementAndJump, PressFlippingKey
+	flip_control = "PressRightAndLeft"
+	#Control of Horizontal Wall Run
+	#Allowed Values: PressKey, Auto
+	h-wall-run_control = "PressKey"
 	#Enable double-tapping ctrl for Dodge
 	enable_double_tapping_for_dodge = false
 	#Enable Crawl in air
 	enable_crawl_in_air = true
 	#Enable Vault in air
 	enable_vault_in_air = true
+	#Enable getting off steps while doing dodge
+	can_get_off_steps_while_dodge = false
 	#Enable backward Wall-Jump when facing to wall
 	enable_wall_jump_backward = false
 	#Enable Roll when creative mode (experimental)
@@ -125,11 +147,14 @@
 	#FastRun speed modifier
 	#Range: 0.001 ~ 4.0
 	fast-run_modifier = 2.0
+	#FastSwim speed modifier
+	#Range: 0.001 ~ 4.0
+	fast-swim_modifier = 2.0
 	#Dodge speed modifier
 	#Range: 0.5 ~ 1.5
 	dodge-speed_modifier = 1.0
 
-["Other Configuration"]
+[Other_Configuration]
 	#Vault Animation(Dynamic is to select animation dynamically)
 	#Allowed Values: SpeedVault, KongVault, Dynamic
 	vault_animation_mode = "Dynamic"
@@ -144,16 +169,21 @@
 	parcool_activation = true
 
 [Stamina]
+	#Allowed Values: Default, Hunger, Feathers, EpicFight
+	used_stamina = "Default"
 
+	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
 	[Stamina.Consumption]
 		#Range: 0 ~ 10000
 		stamina_consumption_of_BreakfallReady = 0
 		#Range: 0 ~ 10000
 		stamina_consumption_of_CatLeap = 400
 		#Range: 0 ~ 10000
+		stamina_consumption_of_ChargeJump = 0
+		#Range: 0 ~ 10000
 		stamina_consumption_of_ClimbPoles = 0
 		#Range: 0 ~ 10000
-		stamina_consumption_of_ClimbUp = 200
+		stamina_consumption_of_ClimbUp = 100
 		#Range: 0 ~ 10000
 		stamina_consumption_of_ClingToCliff = 2
 		#Range: 0 ~ 10000
@@ -165,7 +195,9 @@
 		#Range: 0 ~ 10000
 		stamina_consumption_of_FastRun = 2
 		#Range: 0 ~ 10000
-		stamina_consumption_of_Flipping = 80
+		stamina_consumption_of_FastSwim = 3
+		#Range: 0 ~ 10000
+		stamina_consumption_of_Flipping = 50
 		#Range: 0 ~ 10000
 		stamina_consumption_of_HangDown = 3
 		#Range: 0 ~ 10000
@@ -181,27 +213,18 @@
 		#Range: 0 ~ 10000
 		stamina_consumption_of_Slide = 0
 		#Range: 0 ~ 10000
-		stamina_consumption_of_Tap = 100
+		stamina_consumption_of_Tap = 200
 		#Range: 0 ~ 10000
 		stamina_consumption_of_Vault = 50
 		#Range: 0 ~ 10000
 		stamina_consumption_of_VerticalWallRun = 200
 		#Range: 0 ~ 10000
-		stamina_consumption_of_WallJump = 200
+		stamina_consumption_of_WallJump = 100
 		#Range: 0 ~ 10000
-		stamina_consumption_of_WallSlide = 2
-		#additional stamina mod dependency(only when it's installed)
-		#Allowed Values: None, Feathers
-		external_stamina = "None"
+		stamina_consumption_of_WallSlide = 8
 		#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 		#Please check 'parcool-server.toml' in 'serverconfig' directory
 		infinite_stamina = false
 		#Infinite Stamina while player is cretive mode
 		infinite_stamina_if_creative_mode = true
-		#ParCool consume hanger value instead of stamina
-		use_hanger_instead = false
-		#Range: 300 ~ 10000
-		max_stamina = 1000
-		#Range: 1 ~ 10000
-		stamina_recovery = 10
 
