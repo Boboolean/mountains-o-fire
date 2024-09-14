@@ -12,7 +12,7 @@
 	"Allow mobs to open fence gates if they are already able to open doors" = true
 	#Any mob id input in this list will not open fence gates if they're already able to open doors
 	"Fence Gate Opening Blacklist" = ["minecraft:husk", "minecraft:zombie", "minecraft:vindicator", "minecraft:drowned"]
-	"Enable new bow ai?" = true
+	"Enable new bow ai?" = false
 	"Mobs that don't have the new bow ai" = []
 	"Enable jumping ai" = true
 	"List additional mobs that can also utilize jumping" = ["guardvillagers:guard"]
@@ -29,7 +29,7 @@
 	"How long should the buckler's charge move if you have the turning enchant be in ticks?" = 30
 
 [husk]
-	"Enable burrowing attack for husk?" = true
+	"Enable burrowing attack for husk?" = false
 
 [pillager]
 	"Have pillagers run while reloading?" = true
