@@ -154,6 +154,12 @@ craftingTable.addShaped("bowl_lichen",<item:galosphere:bowl_lichen>, [
     [<item:minecraft:bone_meal>,<item:minecraft:moss_block>,<item:minecraft:bone_meal>]
 ]);
 
+craftingTable.addShaped("acacia_galley",<item:smallships:acacia_galley>, [
+    [<item:minecraft:lead>,<item:minecraft:lead>,<item:minecraft:lead>],
+    [<item:minecraft:chest>,<item:smallships:sail>,<item:minecraft:chest>],
+    [<item:minecraft:acacia_boat>,<item:minecraft:acacia_boat>,<item:minecraft:acacia_boat>]
+]);
+
 craftingTable.removeByName("map_atlases:craft_atlas");
 craftingTable.removeByName("disenchanting:disenchanter");
 craftingTable.removeByName("minecraft:enchanting_table");
@@ -185,3 +191,4 @@ craftingTable.removeByRegex(".*_machete.*");
 craftingTable.removeByRegex(".*balloon_.*");
 craftingTable.removeByName("vs_eureka:floater");
 craftingTable.removeByRegex(".*ship_helm.*");
+craftingTable.removeByName("smallships:acacia_galley");
