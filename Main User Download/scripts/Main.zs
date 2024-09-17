@@ -30,7 +30,7 @@ craftingTable.addShaped("disenchanter", <item:disenchanting:disenchanter>, [
 craftingTable.addShaped("enchanting_table", <item:minecraft:enchanting_table>, [
     [<item:minecraft:air>,<item:minecraft:book>,<item:minecraft:air>],
     [<item:minecraft:diamond>,<item:undergarden:utherium_block>,<item:minecraft:diamond>],
-    [<item:minecraft:obsidian>,<item:undergarden:regalium_block>,<item:minecraft:obsidian>]
+    [<item:minecraft:obsidian>,<item:minecraft:obsidian>,<item:minecraft:obsidian>]
 ]);
 
 craftingTable.addShaped("enchanting_infuser", <item:enchantinginfuser:enchanting_infuser>, [
@@ -46,9 +46,9 @@ craftingTable.addShaped("advanced_enchanting_infuser",<item:enchantinginfuser:ad
 ]);
 
 craftingTable.addShapedMirrored("xp_tome", MirrorAxis.ALL, <item:xpbook:xp_tome>, [
-    [<item:minecraft:air>,<item:blue_skies:falsite_nugget>,<item:blue_skies:falsite_nugget>],
-    [<item:blue_skies:falsite_nugget>,<item:minecraft:book>,<item:blue_skies:falsite_nugget>],
-    [<item:blue_skies:falsite_nugget>,<item:blue_skies:falsite_nugget>,<item:minecraft:air>]
+    [<item:blue_skies:star_flare>,<item:blue_skies:falsite_ingot>,<item:blue_skies:falsite_nugget>],
+    [<item:blue_skies:falsite_ingot>,<item:minecraft:book>,<item:blue_skies:falsite_ingot>],
+    [<item:blue_skies:falsite_nugget>,<item:blue_skies:falsite_ingot>,<item:blue_skies:star_flare>]
 ]);
 
 craftingTable.addShapedMirrored("baby_gloomper_bait", MirrorAxis.ALL, <item:meetyourfight:fossil_bait>, [
@@ -139,7 +139,7 @@ craftingTable.addShapeless("floater", <item:vs_eureka:floater> * 4, [
     <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:minecraft:barrel>
 ]);
 
-craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 4, [
+craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 8, [
     [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>],
     [<item:minecraft:phantom_membrane>,<item:minecraft:lingering_potion>.withTag({Potion: "undergarden:strong_featherweight"}),<item:minecraft:phantom_membrane>],
     [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>]
@@ -152,12 +152,6 @@ craftingTable.addShapeless("spectre_bottle", <item:galosphere:bottle_of_spectre>
 craftingTable.addShaped("bowl_lichen",<item:galosphere:bowl_lichen>, [
     [<item:minecraft:glow_lichen>,<item:minecraft:glow_lichen>,<item:minecraft:glow_lichen>],
     [<item:minecraft:bone_meal>,<item:minecraft:moss_block>,<item:minecraft:bone_meal>]
-]);
-
-craftingTable.addShaped("acacia_galley",<item:smallships:acacia_galley>, [
-    [<item:minecraft:lead>,<item:minecraft:lead>,<item:minecraft:lead>],
-    [<item:minecraft:chest>,<item:smallships:sail>,<item:minecraft:chest>],
-    [<item:minecraft:acacia_boat>,<item:minecraft:acacia_boat>,<item:minecraft:acacia_boat>]
 ]);
 
 craftingTable.removeByName("map_atlases:craft_atlas");
@@ -191,4 +185,3 @@ craftingTable.removeByRegex(".*_machete.*");
 craftingTable.removeByRegex(".*balloon_.*");
 craftingTable.removeByName("vs_eureka:floater");
 craftingTable.removeByRegex(".*ship_helm.*");
-craftingTable.removeByName("smallships:acacia_galley");

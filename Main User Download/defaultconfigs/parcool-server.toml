@@ -4,7 +4,7 @@
 	limitation_imposed = true
 
 	[Limitations.Action_Permissions]
-		permit_BreakfallReady = true
+		permit_BreakfallReady = false
 		permit_CatLeap = true
 		permit_ChargeJump = false
 		permit_ClimbPoles = false
@@ -23,7 +23,7 @@
 		permit_Roll = false
 		permit_SkyDive = false
 		permit_Slide = true
-		permit_Tap = true
+		permit_Tap = false
 		permit_Vault = false
 		permit_VerticalWallRun = true
 		permit_WallJump = true
