@@ -23,7 +23,7 @@
       "deepslate_iron_oreSounds": true,
       "emeraldSounds": true,
       "endStoneBrickSounds": true,
-      "endStoneSounds": true,
+      "endStoneSounds": false,
       "glassSounds": true,
       "goldSounds": true,
       "gold_oreSounds": true,
