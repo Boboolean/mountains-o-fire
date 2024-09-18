@@ -139,10 +139,16 @@ craftingTable.addShapeless("floater", <item:vs_eureka:floater> * 4, [
     <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:minecraft:barrel>
 ]);
 
-craftingTable.addShaped("balloon",<item:vs_eureka:balloon> * 8, [
-    [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>],
-    [<item:minecraft:phantom_membrane>,<item:minecraft:lingering_potion>.withTag({Potion: "undergarden:strong_featherweight"}),<item:minecraft:phantom_membrane>],
-    [<item:minecraft:air>,<item:minecraft:phantom_membrane>,<item:minecraft:air>]
+craftingTable.addShaped("balloon",<item:vs_eureka:balloon>, [
+    [<item:farmersdelight:canvas>,<item:farmersdelight:canvas>,<item:farmersdelight:canvas>],
+    [<item:farmersdelight:canvas>,<item:endergetic:bolloom_fruit>,<item:farmersdelight:canvas>],
+    [<item:farmersdelight:canvas>,<item:farmersdelight:canvas>,<item:farmersdelight:canvas>]
+]);
+
+craftingTable.addShaped("circuit",<item:wirelessredstone:circuit> * 2, [
+    [<item:malum:spectral_lens>,<item:malum:hallowed_gold_ingot>,<item:malum:spectral_lens>],
+    [<item:infernalexp:moth_dust>,<item:minecraft:redstone>,<item:infernalexp:moth_dust>],
+    [<item:malum:spectral_lens>,<item:malum:hallowed_gold_ingot>,<item:malum:spectral_lens>]
 ]);
 
 craftingTable.addShapeless("spectre_bottle", <item:galosphere:bottle_of_spectre>, [
@@ -185,3 +191,4 @@ craftingTable.removeByRegex(".*_machete.*");
 craftingTable.removeByRegex(".*balloon_.*");
 craftingTable.removeByName("vs_eureka:floater");
 craftingTable.removeByRegex(".*ship_helm.*");
+craftingTable.removeByName("wirelessredstone:circuit");

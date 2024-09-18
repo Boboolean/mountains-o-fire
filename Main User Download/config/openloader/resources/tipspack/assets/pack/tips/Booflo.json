@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Tame a booflo by feeding it bolloom fruit and backing away.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

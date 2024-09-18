@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Use spells while you are downed to help your teammates!",
+    "bold": false,
+    "color": "yellow"
+  }
+}
