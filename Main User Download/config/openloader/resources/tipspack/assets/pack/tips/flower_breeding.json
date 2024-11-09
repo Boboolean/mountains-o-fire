@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "You can cross-breed certain species of flowers to change their colors.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

@@ -43,7 +43,7 @@
 		"Explosion Power Bonus" = 8.0
 		#At this difficulty the Wither Explosion will cause fire. Set to -1 to disable.
 		#Range: > -1
-		"Explosion Causes Fire at Difficulty" = -1
+		"Explosion Causes Fire at Difficulty" = 1
 		#The Wither will no longer wait 1.0 seconds before breaking blocks when he's hit, instead just 0.5s
 		"Faster Breaking Blocks" = true
 		#The Wither will break even blocks below him when hit.
@@ -53,16 +53,16 @@
 		#The wither can only be spawned in the Nether.
 		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof.
 		#Requires Minecraft restart.
-		"Wither Nether Only" = false
+		"Wither Nether Only" = true
 
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	[Wither.Attack]
 		#How much experience will an Elder Guardian drop. -1 will make the Elder Guardian drop vanilla experience.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Increased Damage" = 0.96
+		"Increased Damage" = 0.5
 		#Wither Skull Projectiles speed will be multiplied by this value. Set to 1 to not change the speed.
 		#Range: 1.0 ~ 1.7976931348623157E308
-		"Skull Velocity Multiplier" = 2.5
+		"Skull Velocity Multiplier" = 2.0
 
 		[Wither.Attack."Charge attack"]
 			#Chance every time the Wither takes damage to start a charge attack. Lower health and more damage taken increases the chance.
@@ -71,7 +71,7 @@
 			Chance = 0.06
 			#Base damage of the charge attack. Increased by 'Increased Damage' config option.
 			#Range: 0.0 ~ 50.0
-			"Base Damage" = 16.0
+			"Base Damage" = 10.0
 
 		[Wither.Attack."Barrage Attack"]
 			#Chance (at max difficulty) every time the Wither takes damage to start a barrage attack. More damage taken increases the chance.
@@ -88,10 +88,10 @@
 		[Wither.Attack."Attack Speed"]
 			#Every how many ticks (20 ticks = 1 seconds) the middle head will fire a projectile to the target.
 			#Range: > 1
-			Interval = 35
+			Interval = 40
 			#The middle head will attack faster (up to this bonus percentage) the nearer the target is to the Wither.
 			#Range: 0.0 ~ 1.0
-			"Bonus when near" = 0.6
+			"Bonus when near" = 0.3
 
 	#Bonus Experience and Drops
 	[Wither.Rewards]
@@ -109,19 +109,19 @@
 		"Minion at Difficulty" = 1
 		#As the Wither starts spawning Minions, every how much difficulty the Wither will spawn one more Minion
 		#Range: > 0
-		"Bonus Minion Every Difficulty" = 1
+		"Bonus Minion Every Difficulty" = 0
 		#Maximum Minions spawned by the Wither
 		#Range: > 0
-		"Max Minions Spawned" = 6
+		"Max Minions Spawned" = 1
 		#Maximum amount of Minions that can be around the Wither in a 16 block radius. After this number is reached the Wither will stop spawning minions. Set to 0 to disable this check
 		#Range: > 0
-		"Max Minions Around" = 18
+		"Max Minions Around" = 10
 		#Minimum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
-		"Minimum Cooldown" = 400
+		"Minimum Cooldown" = 250
 		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
-		"Maximum Cooldown" = 800
+		"Maximum Cooldown" = 350
 		#Min and Max cooldowns are multiplied by this value when the Wither drops below half health. Set to 1 to not change the cooldown when the wither's health drops below half.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Cooldown Multiplier Below Half Health" = 0.5
@@ -160,10 +160,10 @@
 	[Wither."Difficulty Settings"]
 		#The Maximum difficulty (times spawned) reachable by Wither.
 		#Range: > 1
-		"Max Difficulty" = 8
+		"Max Difficulty" = 1
 		#How much difficulty will players start with when joining a world? Note that this will apply when the first Wither is spawned so if the player has already spawned one this will not apply.
 		#Range: > 0
-		"Starting Difficulty" = 0
+		"Starting Difficulty" = 1
 		#How much blocks from wither will be scanned for players to check for difficulty
 		#Range: > 16
 		"Spawn Radius Player Check" = 128
@@ -185,18 +185,18 @@
 	[Wither.Health]
 		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 720.0
+		"Health Bonus per Difficulty" = 0.0
 		#Maximum bonus regeneration per second given by "Bonus Regeneration".
 		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
 		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 2.0
+		"Maximum Bonus Regeneration" = 0.0
 		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration" = 2.4
+		"Bonus Regeneration" = 0.0
 		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 3 seconds.
 		#Range: 0.0 ~ 2.0
-		"Bonus Regeneration Ratio When Hit" = 0.6
+		"Bonus Regeneration Ratio When Hit" = 0.0
 
 ["Elder Guardian"]
 	#Bonus Experience and Dragon Egg per player
@@ -226,7 +226,7 @@
 	["Elder Guardian".Resistances]
 		#Percentage Damage Reduction for each Elder Guardian Defeated.
 		#Range: 0.0 ~ 1.0
-		"Damage Reduction per Elder Guardian Defeated" = 0.3
+		"Damage Reduction per Elder Guardian Defeated" = 0.2
 
 	#More damage and attack speed based off Elder Guardians Defeated
 	["Elder Guardian".Attack]
@@ -235,13 +235,13 @@
 		"Bonus Damage per Elder Guardian Defeated" = 0.0
 		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
 		#Range: 0 ~ 60
-		"Attack Duration Reduction per Elder Guardian Defeated" = 25
+		"Attack Duration Reduction per Elder Guardian Defeated" = 15
 
 	#Elder Guardians will spawn Elder Minions.
 	["Elder Guardian".Minions]
 		#Elder Guardians will spawn Elder Minions every this tick value (20 ticks = 1 sec).
 		#Range: > 0
-		"Base Cooldown" = 200
+		"Base Cooldown" = 600
 		#The base cooldown is reduced by this value for each missing Elder Guardian.
 		#Range: > 0
 		"Cooldown Reduction per Missing Elder" = 60
@@ -250,10 +250,10 @@
 	["Elder Guardian".Health]
 		#Increase Elder Guardians' Health by this percentage (1 = +100% health)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 0.5
+		"Health Bonus per Difficulty" = 1.0
 		#Adds absorption health to Elder Guradians (health that doesn't regen)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Absorption Health" = 40.0
+		"Absorption Health" = 100.0
 		#Health Regen per second
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Health Regen" = 0.5
@@ -330,16 +330,16 @@
 		"Larva at Difficulty" = 1
 		#As the Ender Dragon starts spawning Minions, every how much difficulty she will spawn one more Minions
 		#Range: > 0
-		"Bonus Larva Every Difficulty" = 1
+		"Bonus Larva Every Difficulty" = 10
 		#Maximum Larva spawned by the Ender Dragon
 		#Range: > 0
-		"Max Larvae Spawned" = 7
+		"Max Larvae Spawned" = 20
 		#Minimum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
-		"Minimum Cooldown" = 800
+		"Minimum Cooldown" = 150
 		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
-		"Maximum Cooldown" = 1400
+		"Maximum Cooldown" = 300
 		#If true, Larvae will take only 10% damage from the Ender Dragon.
 		"Reduced Dragon Damage" = true
 
@@ -350,21 +350,21 @@
 		"More Cages at Difficulty" = 1
 		#Max number of bonus cages that can spawn around the crystals. (Vanilla already has 2 cages)
 		#Range: 0 ~ 8
-		"Max Bonus Cages" = 6
+		"Max Bonus Cages" = 3
 		#At this difficulty one crystal will start to appear inside obsidian towers. -1 will disable this feature.
 		#Range: > -1
-		"More Crystals at Difficulty" = 2
+		"More Crystals at Difficulty" = 1
 		#Every how much difficulty one more crystal will be spawned inside towers
 		#Range: > -1
-		"More Crystals Step" = 3
+		"More Crystals Step" = 1
 		#Max number of bonus crystals that can spawn inside the towers.
 		#Range: 0 ~ 10
-		"More Crystals Max" = 3
+		"More Crystals Max" = 4
 		#Everytime the dragon is hit (when below 50% of health) there's a chance to to trigger a Crystal respawn Phase. The chance is 0% when health >=50% and 100% when health <=30%, the health threshold decreases by 20% every time the dragon respawns crystals.
 		"Enable crystal respawn" = true
 		#At max Difficulty how many crystals will the dragon respawn.
 		#Range: 0.0 ~ 10.0
-		"Crystal Respawn Per Difficulty" = 3.0
+		"Crystal Respawn Per Difficulty" = 6.0
 		#Crystals can no longer be destroyed by other explosions.
 		"Explosion Immune" = true
 
@@ -372,10 +372,10 @@
 	["Ender Dragon"."Difficulty Settings"]
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
 		#Range: > 1
-		"Max Difficulty" = 8
+		"Max Difficulty" = 1
 		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
 		#Range: > 0
-		"Starting Difficulty" = 0
+		"Starting Difficulty" = 1
 		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Killed Dragons Difficulty" = false
 		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
@@ -391,19 +391,19 @@
 		"Minion at Difficulty" = 1
 		#Minimum ticks (20 ticks = 1 seconds) after Minions can spawn
 		#Range: > 0
-		"Minimum Cooldown" = 1400
+		"Minimum Cooldown" = 70
 		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
-		"Maximum Cooldown" = 2000
+		"Maximum Cooldown" = 1400
 		#Percentage cooldown reduction at max difficulty for the cooldown of Minion spawning.
 		#Range: 0.0 ~ 1.0
-		"Cooldown Reduction" = 0.4
+		"Cooldown Reduction" = 0.5
 		#Percentage chance at max difficulty for a Minion to spawn as a Blinding Minion.
 		#Range: 0.0 ~ 1.0
-		"Blinding Chance" = 0.4
+		"Blinding Chance" = 0.7
 		#Time (in ticks) for the blinding effect when hit by a blinding bullet.
 		#Range: 0 ~ 1200
-		"Blinding duration" = 150
+		"Blinding duration" = 120
 		#If true, Dragon Minions will take only 10% damage from the Ender Dragon.
 		"Reduced Dragon Damage" = true
 

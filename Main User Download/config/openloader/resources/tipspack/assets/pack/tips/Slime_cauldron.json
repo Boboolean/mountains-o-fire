@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Throw a slime block into a water cauldron to make a baby slime.",
+    "bold": false,
+    "color": "yellow"
+  }
+}

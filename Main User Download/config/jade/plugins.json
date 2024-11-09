@@ -49,6 +49,9 @@
   "exposure": {
     "lightroom": true
   },
+  "enigmaticgraves": {
+    "grave": true
+  },
   "delightful": {
     "crop_progress": true
   },

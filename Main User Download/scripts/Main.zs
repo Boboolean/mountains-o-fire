@@ -34,7 +34,7 @@ craftingTable.addShaped("enchanting_table", <item:minecraft:enchanting_table>, [
 ]);
 
 craftingTable.addShaped("enchanting_infuser", <item:enchantinginfuser:enchanting_infuser>, [
-    [<item:minecraft:air>,<item:xpbook:xp_tome>.withTag({xp: 1395}),<item:minecraft:air>],
+    [<item:minecraft:air>,<item:spelunkery:nephrite_charm>.withTag({xp: 1395}),<item:minecraft:air>],
     [<item:blue_skies:charoite>,<item:minecraft:enchanting_table>,<item:blue_skies:charoite>],
     [<item:minecraft:crying_obsidian>,<item:minecraft:crying_obsidian>,<item:minecraft:crying_obsidian>]
 ]);
@@ -43,12 +43,6 @@ craftingTable.addShaped("advanced_enchanting_infuser",<item:enchantinginfuser:ad
     [<item:minecraft:netherite_ingot>,<item:enchantinginfuser:enchanting_infuser>,<item:minecraft:netherite_ingot>],
     [<item:blue_skies:ventium_ingot>,<item:goldenhopper:golden_hopper>,<item:blue_skies:ventium_ingot>],
     [<item:minecraft:crying_obsidian>,<item:blue_skies:horizonite_forge>,<item:minecraft:crying_obsidian>]
-]);
-
-craftingTable.addShapedMirrored("xp_tome", MirrorAxis.ALL, <item:xpbook:xp_tome>, [
-    [<item:blue_skies:star_flare>,<item:blue_skies:falsite_ingot>,<item:blue_skies:falsite_nugget>],
-    [<item:blue_skies:falsite_ingot>,<item:minecraft:book>,<item:blue_skies:falsite_ingot>],
-    [<item:blue_skies:falsite_nugget>,<item:blue_skies:falsite_ingot>,<item:blue_skies:star_flare>]
 ]);
 
 craftingTable.addShapedMirrored("baby_gloomper_bait", MirrorAxis.ALL, <item:meetyourfight:fossil_bait>, [
@@ -160,13 +154,18 @@ craftingTable.addShaped("bowl_lichen",<item:galosphere:bowl_lichen>, [
     [<item:minecraft:bone_meal>,<item:minecraft:moss_block>,<item:minecraft:bone_meal>]
 ]);
 
+craftingTable.addShaped("amethyst_rapier",<item:irons_spellbooks:amethyst_rapier>, [
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:amethyst_shard>],
+    [<item:minecraft:chain>,<item:minecraft:amethyst_shard>,<item:minecraft:air>],
+    [<item:irons_spellbooks:weapon_parts>,<item:bosses_of_mass_destruction:obsidian_heart>,<item:minecraft:air>]
+]);
+
 craftingTable.removeByName("map_atlases:craft_atlas");
 craftingTable.removeByName("disenchanting:disenchanter");
 craftingTable.removeByName("minecraft:enchanting_table");
 craftingTable.removeByName("blue_skies:enchanting_table_compat");
 craftingTable.removeByName("enchantinginfuser:advanced_enchanting_infuser");
 craftingTable.removeByName("enchantinginfuser:enchanting_infuser");
-craftingTable.removeByName("xpbook:xp_tome");
 craftingTable.removeByName("meetyourfight:fossil_bait");
 craftingTable.removeByName("meetyourfight:caged_heart");
 craftingTable.removeByName("meetyourfight:depth_star");
@@ -192,3 +191,6 @@ craftingTable.removeByRegex(".*balloon_.*");
 craftingTable.removeByName("vs_eureka:floater");
 craftingTable.removeByRegex(".*ship_helm.*");
 craftingTable.removeByName("wirelessredstone:circuit");
+craftingTable.removeByName("irons_spellbooks:amethyst_rapier");
+craftingTable.removeByName("supplementaries:altimeter");
+craftingTable.removeByName("minecraft:golden_apple");

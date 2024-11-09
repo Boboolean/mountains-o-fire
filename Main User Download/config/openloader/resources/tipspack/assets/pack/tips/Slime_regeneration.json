@@ -1,0 +1,14 @@
+{
+  "title": {
+    "text": "Tip:",
+    "bold": true,
+    "italic": "true",
+    "underlined": "true",
+    "color": "yellow"
+  },
+  "tip": {
+    "text": "Slimes can't hurt you if you have regeneration.",
+    "bold": false,
+    "color": "yellow"
+  }
+}
