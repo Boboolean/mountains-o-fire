@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "mob": "enemyexpansion:botfly",
+    "player": true,
+    "item": "alexsmobs:maggot",
+    "itemcount": "0-1/0-2/0-3"
+  },
+  {
+    "mob": "untamedwilds:baleen_whale",
+    "player": true,
+    "item": "alexsmobs:ambergris",
+    "itemcount": "1/1-2/2-3"
+  }
+]
