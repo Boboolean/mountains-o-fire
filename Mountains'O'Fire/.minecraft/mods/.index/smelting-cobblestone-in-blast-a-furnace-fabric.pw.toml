@@ -1,0 +1,13 @@
+filename = 'stonesmelting-1.19.2-0-forge.jar'
+name = 'Smelting Cobblestone in a Blast Furnace [Fabric/Forge/NeoForge]'
+side = 'both'
+
+[download]
+hash = '2567dfcbb6cf30d95deca973196f28069747f8ff'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4470179
+project-id = 845281

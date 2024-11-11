@@ -1,0 +1,13 @@
+filename = 'untamedwilds-1.19.2-3.0.4.jar'
+name = 'Untamed Wilds'
+side = 'both'
+
+[download]
+hash = '3cc7c4eddfd60c715d1f6cda7e5212e02bd3637b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4766547
+project-id = 457252

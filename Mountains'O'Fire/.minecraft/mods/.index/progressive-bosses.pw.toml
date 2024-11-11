@@ -1,0 +1,13 @@
+filename = 'ProgressiveBosses-3.7.5-mc1.19.2.jar'
+name = 'Progressive Bosses'
+side = 'both'
+
+[download]
+hash = 'e4feb4be55dc78e55c189bf3908207b02e2de0b6c803ddadea78e1e27c6f4cd0297fe644dc995fd2b7d08603bfe5a79a9edef4770d55e875bdc5a2ec3dfca7d0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Zxspe0HA/versions/LORKjZKw/ProgressiveBosses-3.7.5-mc1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'Zxspe0HA'
+version = 'LORKjZKw'
