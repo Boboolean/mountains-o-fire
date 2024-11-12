@@ -55,7 +55,7 @@
 [gamerules]
 	#Options pertaining to global Gamerules
 	#Defines whether animals should breed without Player intervention.
-	natural_breeding = true
+	natural_breeding = false
 	#Adds additional restrictions to mob breeding, including Biome/Temperature requirements and Overcrowding.
 	hardcore_breeding = false
 	#Pregnancy time is only used as a cooldown, babies pop out instantly like in Vanilla.

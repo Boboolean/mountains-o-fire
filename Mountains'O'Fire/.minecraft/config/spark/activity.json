@@ -24,18 +24,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/2rNNn4fEcA"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Cladriel",
-      "uniqueId": "74694a27-8e49-468a-b939-fc6dcf5228f7"
-    },
-    "time": 1726176317667,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/IqinMsfv2E"
-    }
   }
 ]
