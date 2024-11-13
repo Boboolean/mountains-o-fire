@@ -59,11 +59,11 @@
 	#Adds additional restrictions to mob breeding, including Biome/Temperature requirements and Overcrowding.
 	hardcore_breeding = false
 	#Pregnancy time is only used as a cooldown, babies pop out instantly like in Vanilla.
-	easy_breeding = false
+	easy_breeding = true
 	#Whether breeding requires a Male and a Female to produce offspring/eggs. (Warning: may lead to uncontrolled spawns of eggs)
-	gendered_breeding = true
+	gendered_breeding = false
 	#Defines whether players can trigger breeding by feeding a creature's favourite item, like in vanilla.
-	player_breeding = false
+	player_breeding = true
 	#Allows mobs to spawn as fully random species, ignoring Biomes and Rarity.
 	random_species = false
 	#Chance for a mob, out of 1, to have it's Skin replaced by a Rare skin (if any are defined through assets)
@@ -72,7 +72,7 @@
 	#Should mobs with Rare skins generate in the wild (if defined through assets)
 	wild_rare_skins = true
 	#Should the vanilla Spyglass display information when a player looks at a mob. Set to false to disable.
-	spyglass_behavior_change = true
+	spyglass_behavior_change = false
 	#Range up to which the Spyglass will identify mobs and give information, this length is not in blocks, and is roughly equivalent to a Render distance of 12.
 	#Range: > 0
 	spyglass_range = 5000
@@ -91,9 +91,9 @@
 	#Defines whether certain critters will become angry if a mob/player 'steps' on them, by coming too close.
 	contact_agression = true
 	#Defines whether animals should actively target and hunt Undead mobs. Disabling this option should make mobs less prone to dying due to angering a Zombie horde
-	attack_undead = true
+	attack_undead = false
 	#Should the 'Sleeping' behaviour run? Disabling this option also disables the activity
-	mob_sleeping = true
+	mob_sleeping = false
 	#If set to false, makes mobs a lot harder to catch by preventing the capture of hostile mobs
 	easy_mob_capture = true
 	#Defines how long a cycle should last, cycles are used to scale the gestation and breeding periods

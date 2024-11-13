@@ -588,7 +588,7 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:recall"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:ender"
 		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
