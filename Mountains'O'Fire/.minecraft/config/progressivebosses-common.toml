@@ -59,7 +59,7 @@
 	[Wither.Attack]
 		#How much experience will an Elder Guardian drop. -1 will make the Elder Guardian drop vanilla experience.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Increased Damage" = 0.5
+		"Increased Damage" = 0.7
 		#Wither Skull Projectiles speed will be multiplied by this value. Set to 1 to not change the speed.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		"Skull Velocity Multiplier" = 2.0
@@ -91,7 +91,7 @@
 			Interval = 40
 			#The middle head will attack faster (up to this bonus percentage) the nearer the target is to the Wither.
 			#Range: 0.0 ~ 1.0
-			"Bonus when near" = 0.3
+			"Bonus when near" = 0.5
 
 	#Bonus Experience and Drops
 	[Wither.Rewards]

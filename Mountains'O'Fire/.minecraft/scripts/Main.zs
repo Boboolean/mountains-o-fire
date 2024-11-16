@@ -68,7 +68,6 @@ craftingTable.remove(<item:spelunkery:echo_fork>);
 craftingTable.remove(<item:spelunkery:coal_lump>);
 craftingTable.remove(<item:blocky_siege:block_of_cast_iron>);
 craftingTable.remove(<item:alexsmobs:echolocator>);
-craftingTable.remove(<item:alexsmobs:squid_grapple>);
 craftingTable.remove(<item:naturalist:bug_net>);
 craftingTable.remove(<item:naturalist:teddy_bear>);
 craftingTable.remove(<item:alexsmobs:straddleboard>);
@@ -88,6 +87,10 @@ craftingTable.remove(<item:irons_spellbooks:netherite_spell_book>);
 craftingTable.remove(<item:irons_spellbooks:dragonskin_spell_book>);
 craftingTable.remove(<item:irons_spellbooks:spellbreaker>.withTag({ISB_Spells: {spellWheel: 1, mustEquip: 0, data: [{level: 1, id: "irons_spellbooks:counterspell", index: 0, locked: 1}], maxSpells: 1}}));
 craftingTable.remove(<item:irons_spellbooks:diamond_spell_book>);
+recipes.remove(<item:irons_spellbooks:netherite_mage_helmet>);
+recipes.remove(<item:irons_spellbooks:netherite_mage_chestplate>.withTag({ISB_Spells: {spellWheel: 1, mustEquip: 1, data: [], maxSpells: 1}}));
+recipes.remove(<item:irons_spellbooks:netherite_mage_leggings>);
+recipes.remove(<item:irons_spellbooks:netherite_mage_boots>);
 
 craftingTable.addShapedMirrored("atlas", MirrorAxis.ALL, <item:map_atlases:atlas>, [
     [<item:minecraft:leather>,<item:minecraft:ink_sac>,<item:minecraft:leather>],
@@ -129,7 +132,7 @@ craftingTable.addShaped("enchanting_infuser", <item:enchantinginfuser:enchanting
 ]);
 
 craftingTable.addShaped("advanced_enchanting_infuser",<item:enchantinginfuser:advanced_enchanting_infuser>, [
-    [<item:minecraft:netherite_ingot>,<item:mowziesmobs:ice_crystal>,<item:minecraft:netherite_ingot>],
+    [<item:minecraft:netherite_ingot>,<item:minecraft:nether_star>,<item:minecraft:netherite_ingot>],
     [<item:undergarden:shiverstone_regalium_ore>,<item:enchantinginfuser:enchanting_infuser>,<item:undergarden:depthrock_regalium_ore>],
     [<item:blue_skies:poison_stone_pillar>,<item:malum:brilliant_obelisk>,<item:blue_skies:nature_stone_pillar>]
 ]);
@@ -197,13 +200,13 @@ craftingTable.addShaped("haunted_bell",<item:meetyourfight:haunted_bell>, [
 craftingTable.addShaped("spectres_eye",<item:meetyourfight:spectres_eye>, [
     [<item:blue_skies:ventium_ingot>,<item:blue_skies:ventium_ingot>,<item:blue_skies:ventium_ingot>],
     [<item:blue_skies:brumble_lantern>,<item:meetyourfight:phantoplasm>,<item:blue_skies:brumble_lantern>],
-    [<item:blue_skies:ventium_ingot>,<item:blue_skies:ventium_ingot>,<item:blue_skies:ventium_ingot>]
+    [<item:blue_skies:ventium_ingot>,<item:spelunkery:echo_fork>,<item:blue_skies:ventium_ingot>]
 ]);
 
 craftingTable.addShaped("spectres_grasp",<item:meetyourfight:spectres_grasp>, [
     [<item:minecraft:air>,<item:meetyourfight:phantoplasm>,<item:minecraft:air>],
     [<item:undergarden:goo_ball>,<item:blue_skies:star_flare>,<item:undergarden:goo_ball>],
-    [<item:alexsmobs:elastic_tendon>,<item:cataclysm:sticky_gloves>,<item:alexsmobs:elastic_tendon>]
+    [<item:alexsmobs:elastic_tendon>,<item:spelunkery:portal_fluid_bottle>.withTag({"bool": 1}),<item:alexsmobs:elastic_tendon>]
 ]);
 
 craftingTable.addShaped("cocktail_cutlass",<item:meetyourfight:cocktail_cutlass>, [
@@ -286,9 +289,9 @@ craftingTable.addShaped("frostward_ring",<item:irons_spellbooks:frostward_ring>,
 ]);
 
 craftingTable.addShaped("scroll_forge",<item:irons_spellbooks:scroll_forge>, [
-    [<item:abyssal_decor:riveted_deepbronze>,<item:undergarden:forgotten_block>,<item:abyssal_decor:riveted_deepbronze>],
-    [<item:minecraft:air>,<item:malum:brilliant_obelisk>,<item:minecraft:air>],
-    [<item:minecraft:crying_obsidian>,<item:minecraft:crying_obsidian>,<item:minecraft:crying_obsidian>]
+    [<item:undergarden:forgotten_block>,<item:bosses_of_mass_destruction:ancient_anima>,<item:undergarden:forgotten_block>],
+    [<item:minecraft:air>,<item:bosses_of_mass_destruction:void_thorn>,<item:minecraft:air>],
+    [<item:minecraft:crying_obsidian>,<item:malum:brilliant_obelisk>,<item:minecraft:crying_obsidian>]
 ]);
 
 craftingTable.addShaped("advancement_frame",<item:advancementframes:advancement_frame>, [
@@ -325,12 +328,6 @@ craftingTable.addShaped("echolocator",<item:alexsmobs:echolocator>, [
     [<item:aquamirae:ship_graveyard_echo>,<item:minecraft:iron_ingot>,<item:aquamirae:ship_graveyard_echo>],
     [<item:minecraft:iron_ingot>,<item:alexsmobs:ambergris>,<item:minecraft:iron_ingot>],
     [<item:minecraft:air>,<item:minecraft:iron_ingot>,<item:minecraft:air>]
-]);
-
-craftingTable.addShaped("squid_grapple",<item:alexsmobs:squid_grapple>, [
-    [<item:netherdepthsupgrade:crimson_kelp>,<item:alexsmobs:blood_sprayer>,<item:netherdepthsupgrade:crimson_kelp>],
-    [<item:minecraft:copper_ingot>,<item:minecraft:crossbow>,<item:minecraft:copper_ingot>],
-    [<item:minecraft:air>,<item:minecraft:copper_ingot>,<item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("teddy_bear",<item:naturalist:teddy_bear>, [
