@@ -8,7 +8,7 @@
 2 : '',
 3 : '',
 4 : '',
-5 : '{Count:16b,id:"minecraft:arrow"}',
+5 : '{Count:64b,id:"minecraft:arrow"}',
 6 : '{Count:16b,id:"extra_sprinkles:prismarine_arrow"}',
 7 : '{Count:16b,id:"extra_sprinkles:bouncy_arrow"}',
 8 : '{Count:1b,id:"akashictome:tome",tag:{"akashictome:data":{irons_spellbooks:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"irons_spellbooks:iss_guide_book"}},parcool:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"parcool:parcool_guide"}}}}}',

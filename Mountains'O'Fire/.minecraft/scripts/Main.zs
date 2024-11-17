@@ -87,14 +87,17 @@ craftingTable.remove(<item:irons_spellbooks:netherite_spell_book>);
 craftingTable.remove(<item:irons_spellbooks:dragonskin_spell_book>);
 craftingTable.remove(<item:irons_spellbooks:spellbreaker>.withTag({ISB_Spells: {spellWheel: 1, mustEquip: 0, data: [{level: 1, id: "irons_spellbooks:counterspell", index: 0, locked: 1}], maxSpells: 1}}));
 craftingTable.remove(<item:irons_spellbooks:diamond_spell_book>);
+craftingTable.remove(<item:malum:copper_nugget>);
+craftingTable.remove(<item:abyssal_decor:muckroot_soup>);
 recipes.remove(<item:irons_spellbooks:netherite_mage_helmet>);
 recipes.remove(<item:irons_spellbooks:netherite_mage_chestplate>.withTag({ISB_Spells: {spellWheel: 1, mustEquip: 1, data: [], maxSpells: 1}}));
 recipes.remove(<item:irons_spellbooks:netherite_mage_leggings>);
 recipes.remove(<item:irons_spellbooks:netherite_mage_boots>);
+recipes.remove(<item:casualness_delight:paper_wrapped_fish>);
 
 craftingTable.addShapedMirrored("atlas", MirrorAxis.ALL, <item:map_atlases:atlas>, [
     [<item:minecraft:leather>,<item:minecraft:ink_sac>,<item:minecraft:leather>],
-    [<item:supplementaries:globe>,<item:minecraft:map>,<item:spelunkery:magnetic_compass>],
+    [<item:supplementaries:globe>,<item:minecraft:map>,<item:minecraft:compass>],
     [<item:minecraft:leather>,<tag:items:map_atlases:sticky_crafting_items>,<item:minecraft:leather>]
 ]);
 
@@ -442,9 +445,56 @@ craftingTable.addShaped("diamond_spell_book",<item:irons_spellbooks:diamond_spel
     [<item:netherdepthsupgrade:soul_sucker_leather>,<item:malum:etheric_nitrate>,<item:blue_skies:falsite_ingot>]
 ]);
 
+craftingTable.addShaped("permafrost_shard",<item:irons_spellbooks:permafrost_shard>, [
+    [<item:undergarden:froststeel_ingot>],
+    [<item:alexsmobs:froststalker_horn>],
+    [<item:irons_spellbooks:arcane_ingot>]
+]);
+
+craftingTable.addShaped("organic_compost",<item:farmersdelight:organic_compost>, [
+    [<item:minecraft:dirt>,<item:alexsmobs:maggot>,<item:alexsmobs:maggot>],
+    [<item:farmersdelight:straw>,<item:farmersdelight:straw>,<item:minecraft:bone_meal>],
+    [<item:minecraft:bone_meal>,<item:minecraft:bone_meal>,<item:minecraft:bone_meal>]
+]);
+
+craftingTable.addShaped("fedora",<item:alexsmobs:fedora>, [
+    [<item:minecraft:air>,<item:netherdepthsupgrade:soul_sucker_leather>,<item:minecraft:air>],
+    [<item:minecraft:leather>,<item:alexsmobs:raccoon_tail>,<item:minecraft:leather>],
+]);
+
+craftingTable.addShapeless("popcorn_box",<item:corn_delight:popcorn_box>, [
+    <item:abyssal_decor:toasted_seeds>,<item:abyssal_decor:toasted_seeds>,<item:abyssal_decor:toasted_seeds>,<item:abyssal_decor:toasted_seeds>,<item:minecraft:paper>
+]);
+
+craftingTable.addShaped("torch",<item:minecraft:torch>*4, [
+    [<item:alexsmobs:fish_oil>],
+    [<tag:items:forge:rods/wooden>]
+]);
 
 
 
 <recipetype:farmersdelight:cutting>.addRecipe("jungle_wood_cinnamon_temporary", <item:minecraft:jungle_log>, [<item:abyssal_decor:cinnamon_stick>,<item:minecraft:stripped_jungle_log>], <tag:items:forge:tools/axes>, "minecraft:item.axe.strip");
 
-<recipetype:farmersdelight:cooking>.addRecipe("squid_ink_pasta", <item:farmersdelight:squid_ink_pasta>, [<tag:items:forge:raw_fishes>,<item:crabbersdelight:shrimp>,<item:farmersdelight:raw_pasta>,<item:minecraft:ink_sac>,<item:collectorsreap:lime_slice>,<item:farmersdelight:tomato>], <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 100, 400);
+<recipetype:farmersdelight:cooking>.addRecipe("squid_ink_pasta", <item:farmersdelight:squid_ink_pasta>, 
+    [<tag:items:forge:raw_fishes>,<item:crabbersdelight:shrimp>,<item:farmersdelight:raw_pasta>,<item:minecraft:ink_sac>,<item:collectorsreap:lime_slice>,<item:farmersdelight:tomato>], 
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 100, 400);
+
+<recipetype:farmersdelight:cooking>.addRecipe("muckroot_soup", <item:abyssal_decor:muckroot_soup>, 
+    [<item:abyssal_decor:muckroot_item>,<item:abyssal_decor:muckroot_item>,<item:abyssal_decor:muckroot_item>],
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 100, 400);
+
+<recipetype:farmersdelight:cooking>.addRecipe("portobello_pasta", <item:collectorsreap:portobello_pasta>, 
+    [<item:alexsmobs:gongylidia>,<item:farmersdelight:raw_pasta>,<item:minecraft:brown_mushroom>,<item:farmersdelight:onion>,<tag:items:forge:milk>],
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 100, 400);
+
+<recipetype:farmersdelight:cooking>.addRecipe("paper_wrapped_fish", <item:casualness_delight:paper_wrapped_fish>, 
+    [<item:brewinandchewin:rice_wine>,<tag:items:forge:raw_fishes>,<item:spelunkery:salt>,<item:farmersdelight:tomato>,<item:snowyspirit:ginger>],
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:paper>, 100, 400);
+
+<recipetype:farmersdelight:cooking>.addRecipe("shrimp_fried_rice", <item:alexsmobs:shrimp_fried_rice>, 
+    [<item:crabbersdelight:shrimp>,<item:crabbersdelight:shrimp>,<item:corn_delight:corn>,<item:farmersdelight:rice>,<item:farmersdelight:rice>],
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:farmersdelight:cabbage_leaf>, 100, 400);
+
+<recipetype:farmersdelight:cooking>.addRecipe("pasta_with_veggieballs", <item:miners_delight:pasta_with_veggieballs>, 
+    [<item:abyssal_decor:muckroot_item>,<item:farmersdelight:raw_pasta>,<item:farmersdelight:tomato_sauce>],
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 100, 400);

@@ -4,7 +4,7 @@
 'feet' : '{Count:1b,id:"minecraft:leather_boots",tag:{Damage:0}}',
 'offhand' : '{Count:16b,id:"supplementaries:bomb"}',
 0 : '{Count:1b,id:"farmersdelight:flint_knife",tag:{Damage:0}}',
-1 : '{Count:6b,id:"aquaculture:fish_fillet_cooked"}',
+1 : '{Count:10b,id:"aquaculture:fish_fillet_cooked"}',
 2 : '{Count:8b,id:"corn_delight:tortilla_chip"}',
 3 : '{Count:1b,id:"farmersrespite:black_tea"}',
 4 : '{Count:1b,id:"minecraft:written_book",tag:{author:"Cladriel",filtered_title:"Brit in a Bit",pages:[‵{"text":"If greeting, say:\\nCheers, mate.\\nIf happy, say:\\nI\‵m absolutely chuffed to bits.\\nIf tired, say:\\nI\‵m knackered.\\nIf surprised, say:\\nI\‵m Gobsmacked!\\nNever forget:\\nR.I.P. Queen Elizabeth II September 8, 2022\\n\\n\\n"}‵,‵{"text":"If in trouble, shoot cannon (let your British instinct take over). \\n\\nCongrats! After careful review, this booked has deemed you are now ready to be british."}‵],resolved:1b,title:"Brit in a Bit"}}',
