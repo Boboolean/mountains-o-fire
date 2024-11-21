@@ -1,7 +1,7 @@
 [
 {
   "mob": ["enemyexpansion:slugger"],
-  "persecond": 0.1,
+  "persecond": 0.05,
   "attempts": 20,
   "amount": {
     "minimum": 1,

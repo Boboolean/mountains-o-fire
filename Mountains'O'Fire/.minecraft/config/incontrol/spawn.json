@@ -22,6 +22,11 @@
 
 {
   "mob": ["enemyexpansion:sprinter","enemyexpansion:slugger"],
+  "biometags": "icy",
+  "result": "deny"
+},
+{
+  "mob": ["enemyexpansion:sprinter","enemyexpansion:slugger"],
   "seesky": true,
   "result": "default"
 },

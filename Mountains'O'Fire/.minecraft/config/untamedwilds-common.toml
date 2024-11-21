@@ -12,7 +12,7 @@
 	#Controls whether to spawn Amazon Sword in Swamp/Jungle biomes
 	algae = true
 	#Controls whether to use Burrows to spawn Critters, if disabled, Critters will spawn in the world like normal mobs.
-	burrows = true
+	burrows = false
 	#Prevent spawns of Reeds in these biomes
 	reed_blacklist = []
 	#Frequency of Reeds, 1 in N chunks will generate Reeds (0 to disable)

@@ -94,6 +94,7 @@ recipes.remove(<item:irons_spellbooks:netherite_mage_chestplate>.withTag({ISB_Sp
 recipes.remove(<item:irons_spellbooks:netherite_mage_leggings>);
 recipes.remove(<item:irons_spellbooks:netherite_mage_boots>);
 recipes.remove(<item:casualness_delight:paper_wrapped_fish>);
+recipes.remove(<item:farmersdelight:fried_rice>);
 
 craftingTable.addShapedMirrored("atlas", MirrorAxis.ALL, <item:map_atlases:atlas>, [
     [<item:minecraft:leather>,<item:minecraft:ink_sac>,<item:minecraft:leather>],
@@ -497,4 +498,8 @@ craftingTable.addShaped("torch",<item:minecraft:torch>*4, [
 
 <recipetype:farmersdelight:cooking>.addRecipe("pasta_with_veggieballs", <item:miners_delight:pasta_with_veggieballs>, 
     [<item:abyssal_decor:muckroot_item>,<item:farmersdelight:raw_pasta>,<item:farmersdelight:tomato_sauce>],
+    <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 100, 400);
+
+<recipetype:farmersdelight:cooking>.addRecipe("fried_rice", <item:farmersdelight:fried_rice>, 
+    [<item:farmersdelight:rice>,<tag:items:forge:eggs>,<item:minecraft:carrot>,<item:farmersdelight:onion>,<item:corn_delight:corn>,<item:swampier_swamps:frog_leg>],
     <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 100, 400);

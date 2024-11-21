@@ -896,7 +896,7 @@
 		# Percent chance of generating in an allowed chunk.
 		# Default: 35
 		#Range: 0 ~ 100
-		probability = 45
+		probability = 60
 
 	[tower_of_the_undead.structures]
 
