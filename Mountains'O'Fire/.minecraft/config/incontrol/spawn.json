@@ -1,7 +1,7 @@
 [
 {
   "mob": "upgrade_aquatic:thrasher",
-  "mincount": 25,
+  "mincount": 12,
   "result": "deny"
 },
 {

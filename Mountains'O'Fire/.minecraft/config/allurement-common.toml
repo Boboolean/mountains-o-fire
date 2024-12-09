@@ -31,7 +31,7 @@
 
 	[enchantments.reforming]
 		#Gear enchantment that very slowly repairs items over time
-		"Enable Reforming" = true
+		"Enable Reforming" = false
 		#How many ticks it takes a reforming item to repair
 		#Range: > 0
 		"Reforming tick rate" = 600
