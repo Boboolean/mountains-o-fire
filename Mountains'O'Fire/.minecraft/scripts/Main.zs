@@ -471,32 +471,50 @@ craftingTable.addShaped("torch",<item:minecraft:torch>*4, [
     [<item:alexsmobs:fish_oil>],
     [<tag:items:forge:rods/wooden>]
 ]);
-craftingTable.addShapeless("warped_board", <item:handcrafted:warped_board> * 2, [
-    <item:minecraft:warped_planks>
+craftingTable.addShaped("warped_board", <item:handcrafted:warped_board> * 6, [
+    [<item:minecraft:warped_planks>],
+    [<item:minecraft:warped_planks>],
+    [<item:minecraft:warped_planks>]
 ]);
-craftingTable.addShapeless("crimson_board", <item:handcrafted:crimson_board> * 2, [
-    <item:minecraft:crimson_planks>
+craftingTable.addShaped("crimson_board", <item:handcrafted:crimson_board> * 6, [
+    [<item:minecraft:crimson_planks>],
+    [<item:minecraft:crimson_planks>],
+    [<item:minecraft:crimson_planks>]
 ]);
-craftingTable.addShapeless("spruce_board", <item:handcrafted:spruce_board> * 2, [
-    <item:minecraft:spruce_planks>
+craftingTable.addShaped("spruce_board", <item:handcrafted:spruce_board> * 6, [
+    [<item:minecraft:spruce_planks>],
+    [<item:minecraft:spruce_planks>],
+    [<item:minecraft:spruce_planks>]
 ]);
-craftingTable.addShapeless("oak_board", <item:handcrafted:oak_board> * 2, [
-    <item:minecraft:oak_planks>
+craftingTable.addShaped("oak_board", <item:handcrafted:oak_board> * 6, [
+    [<item:minecraft:oak_planks>],
+    [<item:minecraft:oak_planks>],
+    [<item:minecraft:oak_planks>]
 ]);
-craftingTable.addShapeless("mangrove_board", <item:handcrafted:mangrove_board> * 2, [
-    <item:minecraft:mangrove_planks>
+craftingTable.addShaped("mangrove_board", <item:handcrafted:mangrove_board> * 6, [
+    [<item:minecraft:mangrove_planks>],
+    [<item:minecraft:mangrove_planks>],
+    [<item:minecraft:mangrove_planks>]
 ]);
-craftingTable.addShapeless("jungle_board", <item:handcrafted:jungle_board> * 2, [
-    <item:minecraft:jungle_planks>
+craftingTable.addShaped("jungle_board", <item:handcrafted:jungle_board> * 6, [
+    [<item:minecraft:jungle_planks>],
+    [<item:minecraft:jungle_planks>],
+    [<item:minecraft:jungle_planks>]
 ]);
-craftingTable.addShapeless("dark_oak_board", <item:handcrafted:dark_oak_board> * 2, [
-    <item:minecraft:dark_oak_planks>
+craftingTable.addShaped("dark_oak_board", <item:handcrafted:dark_oak_board> * 6, [
+    [<item:minecraft:dark_oak_planks>],
+    [<item:minecraft:dark_oak_planks>],
+    [<item:minecraft:dark_oak_planks>]
 ]);
-craftingTable.addShapeless("birch_board", <item:handcrafted:birch_board> * 2, [
-    <item:minecraft:birch_planks>
+craftingTable.addShaped("birch_board", <item:handcrafted:birch_board> * 6, [
+    [<item:minecraft:birch_planks>],
+    [<item:minecraft:birch_planks>],
+    [<item:minecraft:birch_planks>]
 ]);
-craftingTable.addShapeless("acacia_board", <item:handcrafted:acacia_board> * 2, [
-    <item:minecraft:acacia_planks>
+craftingTable.addShaped("acacia_board", <item:handcrafted:acacia_board> * 6, [
+    [<item:minecraft:acacia_planks>],
+    [<item:minecraft:acacia_planks>],
+    [<item:minecraft:acacia_planks>]
 ]);
 
 <recipetype:farmersdelight:cutting>.addRecipe("jungle_wood_cinnamon_temporary", <item:minecraft:jungle_log>, [<item:abyssal_decor:cinnamon_stick>,<item:minecraft:stripped_jungle_log>], <tag:items:forge:tools/axes>, "minecraft:item.axe.strip");
