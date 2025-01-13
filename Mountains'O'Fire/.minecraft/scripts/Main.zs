@@ -95,6 +95,14 @@ recipes.remove(<item:irons_spellbooks:netherite_mage_leggings>);
 recipes.remove(<item:irons_spellbooks:netherite_mage_boots>);
 recipes.remove(<item:casualness_delight:paper_wrapped_fish>);
 recipes.remove(<item:farmersdelight:fried_rice>);
+recipes.remove(<item:farmersdelight:fried_rice>);
+recipes.remove(<item:minecraft:ender_chest>);
+
+craftingTable.addShaped("ender_chest", <item:minecraft:ender_chest>, [
+    [<item:minecraft:obsidian>,<item:minecraft:obsidian>,<item:minecraft:obsidian>],
+    [<item:minecraft:obsidian>,<item:minecraft:ender_eye>,<item:minecraft:obsidian>],
+    [<item:minecraft:obsidian>,<item:minecraft:obsidian>,<item:minecraft:obsidian>]
+]);
 
 craftingTable.addShapedMirrored("atlas", MirrorAxis.ALL, <item:map_atlases:atlas>, [
     [<item:minecraft:leather>,<item:minecraft:ink_sac>,<item:minecraft:leather>],
