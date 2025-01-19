@@ -390,9 +390,9 @@ craftingTable.addShaped("cave_taco",<item:abyssal_decor:cave_taco>, [
 ]);
 
 craftingTable.addShaped("engine",<item:vs_eureka:engine>, [
-    [<item:aquamirae:oxygen_tank>,<item:minecraft:copper_ingot>,<item:mowziesdelight:nagi_tail>],
-    [<item:minecraft:blast_furnace>,<item:spelunkery:magnetite_chunk>,<item:supplementaries:turn_table>],
-    [<item:aquamirae:oxygen_tank>,<item:minecraft:copper_ingot>,<item:mowziesdelight:nagi_tail>]
+    [<item:minecraft:copper_ingot>,<item:minecraft:copper_ingot>,<item:minecraft:copper_ingot>],
+    [<item:supplementaries:turn_table>,<item:spelunkery:magnetite_chunk>,<item:aquamirae:oxygen_tank>],
+    [<item:mowziesdelight:nagi_tail>,<item:minecraft:blast_furnace>,<item:aquamirae:oxygen_tank>]
 ]);
 
 craftingTable.addShaped("ballast",<item:vs_eureka:ballast>, [
