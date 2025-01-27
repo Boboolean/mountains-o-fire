@@ -37,7 +37,6 @@ craftingTable.removeByName("undergardendelight:utherium_knife");
 craftingTable.removeByName("undergardendelight:forgotten_knife");
 craftingTable.removeByRegex(".*_machete.*");
 craftingTable.removeByRegex(".*balloon_.*");
-craftingTable.removeByName("vs_eureka:floater");
 craftingTable.removeByRegex(".*ship_helm.*");
 craftingTable.removeByName("wirelessredstone:circuit");
 craftingTable.removeByName("irons_spellbooks:amethyst_rapier");
@@ -76,8 +75,6 @@ craftingTable.remove(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.remove(<item:cataclysm:bone_reptile_chestplate>);
 craftingTable.remove(<item:cataclysm:bloom_stone_pauldrons>);
 craftingTable.remove(<item:abyssal_decor:cave_taco>);
-craftingTable.remove(<item:vs_eureka:engine>);
-craftingTable.remove(<item:vs_eureka:ballast>);
 craftingTable.remove(<item:meetyourfight:devils_ante>);
 craftingTable.remove(<item:irons_spellbooks:copper_spell_book>);
 craftingTable.remove(<item:irons_spellbooks:gold_spell_book>);
@@ -233,16 +230,6 @@ craftingTable.addShaped("druidic_spell_book",<item:irons_spellbooks:druidic_spel
     [<item:irons_spellbooks:magic_cloth>,<item:minecraft:honey_bottle>,<item:minecraft:air>]
 ]);
 
-craftingTable.addShapeless("floater", <item:vs_eureka:floater> * 4, [
-    <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:aquamirae:oxygelium>, <item:minecraft:barrel>
-]);
-
-craftingTable.addShaped("balloon",<item:vs_eureka:balloon>, [
-    [<item:farmersdelight:canvas>,<item:farmersdelight:canvas>,<item:farmersdelight:canvas>],
-    [<item:farmersdelight:canvas>,<item:endergetic:bolloom_fruit>,<item:farmersdelight:canvas>],
-    [<item:farmersdelight:canvas>,<item:farmersdelight:canvas>,<item:farmersdelight:canvas>]
-]);
-
 craftingTable.addShaped("circuit",<item:wirelessredstone:circuit> * 2, [
     [<item:malum:spectral_lens>,<item:malum:hallowed_gold_ingot>,<item:malum:spectral_lens>],
     [<item:infernalexp:moth_dust>,<item:minecraft:redstone>,<item:infernalexp:moth_dust>],
@@ -387,17 +374,6 @@ craftingTable.addShaped("bloom_stone_pauldrons",<item:cataclysm:bloom_stone_paul
 craftingTable.addShaped("cave_taco",<item:abyssal_decor:cave_taco>, [
     [<item:miners_delight:baked_cave_carrot>,<item:miners_delight:smoked_bat_wing>,<item:miners_delight:silverfish_eggs>],
     [<item:minecraft:rotten_flesh>,<item:abyssal_decor:spidercorn_tortilla>,<item:minecraft:rotten_flesh>]
-]);
-
-craftingTable.addShaped("engine",<item:vs_eureka:engine>, [
-    [<item:minecraft:copper_ingot>,<item:minecraft:copper_ingot>,<item:minecraft:copper_ingot>],
-    [<item:supplementaries:turn_table>,<item:spelunkery:magnetite_chunk>,<item:aquamirae:oxygen_tank>],
-    [<item:mowziesdelight:nagi_tail>,<item:minecraft:blast_furnace>,<item:aquamirae:oxygen_tank>]
-]);
-
-craftingTable.addShaped("ballast",<item:vs_eureka:ballast>, [
-    [<item:blocky_siege:block_of_cast_iron>,<item:minecraft:barrel>,<item:blocky_siege:block_of_cast_iron>],
-    [<item:minecraft:air>,<item:minecraft:piston>,<item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("devils_ante",<item:meetyourfight:devils_ante>, [
